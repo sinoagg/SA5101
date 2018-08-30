@@ -1,0 +1,12 @@
+[GetNpvCfg]
+Class="Function"
+Prototype="int GetNpvCfg(int panelHandle);"
+
+[NpvAdvancSetCallback]
+Class="Function"
+Prototype="int NpvAdvancSetCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[NpvBasicSetCallback]
+Class="Function"
+Prototype="int NpvBasicSetCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

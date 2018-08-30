@@ -1,0 +1,12 @@
+[InitTableCells]
+Class="Function"
+Prototype="int InitTableCells(int panel, int control, int unmOfColumn, int unmOfRow);"
+
+[AddValeToTable]
+Class="Function"
+Prototype="int AddValeToTable(int panel, int control, double *yval, double *xval);"
+
+[FormatTable]
+Class="Function"
+Prototype="int FormatTable(int panel, int control);"
+

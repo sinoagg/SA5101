@@ -1,0 +1,16 @@
+[GetC_vBasicCfg]
+Class="Function"
+Prototype="int GetC_vBasicCfg(int panelHandle);"
+
+[GetC_vAdvanceCfg]
+Class="Function"
+Prototype="int GetC_vAdvanceCfg(int panelHandle);"
+
+[CvAdvancSetCallback]
+Class="Function"
+Prototype="int CvAdvancSetCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CvBasicSetCallback]
+Class="Function"
+Prototype="int CvBasicSetCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

@@ -1,0 +1,12 @@
+[TimerCallback]
+Class="Function"
+Prototype="int TimerCallback(int reserved, int timerId, int event, void *callbackData, int eventData1, int eventData2);"
+
+[TimerCallback2]
+Class="Function"
+Prototype="int TimerCallback2(int reserved, int timerId, int event, void *callbackData, int eventData1, int eventData2);"
+
+[TimerCallback3]
+Class="Function"
+Prototype="int TimerCallback3(int reserved, int timerId, int event, void *callbackData, int eventData1, int eventData2);"
+

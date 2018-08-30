@@ -1,0 +1,8 @@
+[SetNpvArguments]
+Class="Function"
+Prototype="int SetNpvArguments(double initial, double final, double incr, double pluse, double samplingWidth, double pluseWidth, double plusePeriod);"
+
+[Send_npvCmd]
+Class="Function"
+Prototype="void Send_npvCmd(double initial, double final, double pluse, double incr, double samplingWidth, double PluseWidth, double PlusePeriod);"
+

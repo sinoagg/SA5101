@@ -1,0 +1,8 @@
+[SetcvArguments]
+Class="Function"
+Prototype="void SetcvArguments(double Vmax, double Vmin, double sr, double Vstart, double Vfinal, char Seg);"
+
+[Send_cvcmd]
+Class="Function"
+Prototype="void Send_cvcmd(double Vmax, double Vmin, double ss, int seg);"
+

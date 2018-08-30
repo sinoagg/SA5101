@@ -1,0 +1,8 @@
+[SetLsvArguments]
+Class="Function"
+Prototype="void SetLsvArguments(double Vmax, double Vmin, double ss);"
+
+[Send_lsvcmd]
+Class="Function"
+Prototype="void Send_lsvcmd(double final, double initial, double scanrate);"
+

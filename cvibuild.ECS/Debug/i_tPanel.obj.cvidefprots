@@ -1,0 +1,12 @@
+[GetI_tCfg]
+Class="Function"
+Prototype="int GetI_tCfg(int panelHandle);"
+
+[ItAdvancSetCallback]
+Class="Function"
+Prototype="int ItAdvancSetCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ItBasicSetCallback]
+Class="Function"
+Prototype="int ItBasicSetCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

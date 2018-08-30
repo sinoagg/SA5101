@@ -1,0 +1,12 @@
+[GetScvCfg]
+Class="Function"
+Prototype="int GetScvCfg(int panelHandle);"
+
+[ScvAdvancSetCallback]
+Class="Function"
+Prototype="int ScvAdvancSetCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ScvBasicSetCallback]
+Class="Function"
+Prototype="int ScvBasicSetCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

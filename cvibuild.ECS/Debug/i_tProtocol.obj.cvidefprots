@@ -1,0 +1,24 @@
+[send_cmd_vol]
+Class="Function"
+Prototype="void send_cmd_vol(double vol);"
+
+[send_cmd_SamInt]
+Class="Function"
+Prototype="void send_cmd_SamInt(int t);"
+
+[send_itcmd]
+Class="Function"
+Prototype="void send_itcmd();"
+
+[send_itClosecmd]
+Class="Function"
+Prototype="void send_itClosecmd();"
+
+[ProtocolGetData]
+Class="Function"
+Prototype="int ProtocolGetData(unsigned char *pUartRxBuf, RxDataTypeDef *pRxData);"
+
+[ProtocolGetData1]
+Class="Function"
+Prototype="void ProtocolGetData1(unsigned char *pUartRxBuf, RxDataTypeDef *pRxData);"
+

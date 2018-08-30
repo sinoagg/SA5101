@@ -1,0 +1,12 @@
+[LookAllUser]
+Class="Function"
+Prototype="int LookAllUser(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DeleteUser]
+Class="Function"
+Prototype="int DeleteUser(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[AddUser]
+Class="Function"
+Prototype="int AddUser(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

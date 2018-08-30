@@ -1,0 +1,8 @@
+[setScvArguments]
+Class="Function"
+Prototype="int setScvArguments(double initial, double final, double incr, double stepPeriods, double samplingWidth);"
+
+[send_scvcmd]
+Class="Function"
+Prototype="void send_scvcmd(double initial, double final, double incr, double stepPeriods);"
+

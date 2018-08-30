@@ -1,0 +1,8 @@
+[OcptAdvancSetCallback]
+Class="Function"
+Prototype="int OcptAdvancSetCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OcptBasicSetCallback]
+Class="Function"
+Prototype="int OcptBasicSetCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

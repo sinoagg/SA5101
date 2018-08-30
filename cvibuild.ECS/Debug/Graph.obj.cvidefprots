@@ -1,0 +1,12 @@
+[i_tgraphInit]
+Class="Function"
+Prototype="int i_tgraphInit(int graphIndex, int numOfCurve, int numOfDots, Graph_TypeDef *pGraph);"
+
+[graphDeinit]
+Class="Function"
+Prototype="int graphDeinit(Graph_TypeDef *pGraph);"
+
+[receive_itdataanalysis]
+Class="Function"
+Prototype="int receive_itdataanalysis();"
+

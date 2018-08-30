@@ -1,0 +1,12 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[ComCallback]
+Class="Function"
+Prototype="int ComCallback(int portNumber, int eventMask, void *callbackData);"
+
+[CheckPortStatus]
+Class="Function"
+Prototype="int CheckPortStatus(int portNumber, void (*pFun)(int, int, void *));"
+

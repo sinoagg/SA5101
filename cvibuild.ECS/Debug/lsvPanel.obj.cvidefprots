@@ -1,0 +1,12 @@
+[GetLsvCfg]
+Class="Function"
+Prototype="int GetLsvCfg(int panelHandle);"
+
+[LsvAdvancSetCallback]
+Class="Function"
+Prototype="int LsvAdvancSetCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[LsvBasicSetCallback]
+Class="Function"
+Prototype="int LsvBasicSetCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

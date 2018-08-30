@@ -1,0 +1,12 @@
+[GetSwvCfg]
+Class="Function"
+Prototype="int GetSwvCfg(int panelHandle);"
+
+[SwvAdvancSetCallback]
+Class="Function"
+Prototype="int SwvAdvancSetCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SwvBasicSetCallback]
+Class="Function"
+Prototype="int SwvBasicSetCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
