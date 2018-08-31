@@ -1,5 +1,8 @@
+#include <formatio.h>
+#include <utility.h>
+#include <ansi_c.h>
 #include <userint.h>
-#include "SaveData.h"
+#include "Result Menu.h" 
 
 //==============================================================================
 //
@@ -13,9 +16,8 @@
 
 //==============================================================================
 // Include files
+#include "File.h"
 
-//#include "File.h"
-#include "SaveData.h"
 //==============================================================================
 // Constants
 
@@ -30,38 +32,33 @@
 
 //==============================================================================
 // Global variables
-char sheetSavePath[512];
-char graphSavePath[512];
+
+
 //==============================================================================
 // Global functions
 
-/// HIFN  What does your function do?
-/// HIPAR x/What inputs does your function expect?
-/// HIRET What does your function return?
-
-int CVICALLBACK BrowseSheetCallback (int panel, int control, int event,
-								   	 void *callbackData, int eventData1, int eventData2)
+void InitFileLable(FileLableTypeDef* pFileLable, char* pFileName)
 {
-	switch (event)
-	{
-		case EVENT_COMMIT:
-			
-			if(FileSelectPopup ("C:\\SINOAGG\\SA6101\\", ".xls", "*.xls", "Select Path", VAL_OK_BUTTON, 0, 1, 1, 1, sheetSavePath)>0)
-				SetCtrlVal(panel, SAVEDATA_SHEETPATH, sheetSavePath);
-			break;
-	}
-	return 0;
+	//int fileHandle;
+	int month, day, year;
+	int hours, minutes, seconds;
+	pFileLable->pFileName=pFileLable->FileName;
+	pFileLable->pFileDate=pFileLable->FileDate;
+	pFileLable->pFileTime=pFileLable->FileTime;
+	pFileLable->pFileDesc=pFileLable->FileDesc;
+	strcpy (pFileLable->pFileName, pFileName);
+	//pFileLable->pFileName=pFileName;
+	GetFileDate (pFileName, &month, &day, &year);
+	sprintf(pFileLable->pFileDate, "%02d/%02d/%4d", month, day, year);
+	GetFileTime (pFileName, &hours, &minutes, &seconds);
+	sprintf(pFileLable->pFileTime, "%02d:%02d:%02d", hours, minutes, seconds);
+	FILE * fp = NULL;							//表示打开的文件
+	fp= fopen (pFileName, "a+");
+	fseek(fp, -64, SEEK_END);					//从最后起向前64
+	fgets(pFileLable->pFileDesc, 63, fp);
+	fclose(fp);
+
+	
 }
 
-int CVICALLBACK BrowseGraph1Callback (int panel, int control, int event,
-									  void *callbackData, int eventData1, int eventData2)
-{
-	switch (event)
-	{
-		case EVENT_COMMIT:
-			if(FileSelectPopup ("C:\\SINOAGG\\SA6101\\", ".jpg", "*.jpg;*.png;*.bmp;*.tif", "Select Path", VAL_OK_BUTTON, 0, 0, 1, 1, graphSavePath)>0)
-				SetCtrlVal(panel, SAVEDATA_GRAPHPATH, graphSavePath);
-			break;
-	}
-	return 0;
-}
+

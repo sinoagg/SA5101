@@ -17,7 +17,9 @@
 #define CURVE1 0
 #define CURVE2 1  
 #define CURVE3 2 
+
 		
+extern char ProjectSavePath[512];	   //本地工作目录Dir 
 		
 Curve_TypeDef* GetSettingsCurveAttr(int GraphIndex, int CurveIndex);
 

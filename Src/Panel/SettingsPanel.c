@@ -14,6 +14,8 @@ Curve_TypeDef Graph2_CurveAttr1;
 Curve_TypeDef Graph2_CurveAttr2;
 Curve_TypeDef Graph2_CurveAttr3;
 
+char ProjectSavePath[512]="C:\\Sinoagg\\SA5101\\Users\\";	   //本地工作目录Dir 
+
 Curve_TypeDef* GetSettingsCurveAttr(int GraphIndex, int CurveIndex)
 {
 	Curve_TypeDef* pCurveAttr;

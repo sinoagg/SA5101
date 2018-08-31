@@ -13,20 +13,24 @@
 
      /* Panels and Controls: */
 
-#define  DEFPANEL                         1       /* callback function: DefaultCallback */
-#define  DEFPANEL_TXT                     2       /* control type: textMsg, callback function: (none) */
+#define  DEFPANEL                         1       /* callback function: PrjSelectCallback */
+#define  DEFPANEL_NAME                    2       /* control type: textMsg, callback function: (none) */
 #define  DEFPANEL_CANVAS                  3       /* control type: canvas, callback function: (none) */
-#define  DEFPANEL_TXT_DESC                4       /* control type: textMsg, callback function: (none) */
-#define  DEFPANEL_PICS                    5       /* control type: picture, callback function: (none) */
+#define  DEFPANEL_TIME                    4       /* control type: textMsg, callback function: (none) */
+#define  DEFPANEL_DATE                    5       /* control type: textMsg, callback function: (none) */
+#define  DEFPANEL_DESC                    6       /* control type: textMsg, callback function: (none) */
+#define  DEFPANEL_PICS                    7       /* control type: picture, callback function: (none) */
 
-#define  PROPANEL                         2
-#define  PROPANEL_OPEN                    2       /* control type: command, callback function: OpenCallback */
-#define  PROPANEL_EXIT                    3       /* control type: command, callback function: ProExitCallback */
-#define  PROPANEL_SPLITTER                4       /* control type: splitter, callback function: (none) */
-#define  PROPANEL_DESCBOX                 5       /* control type: radioButton, callback function: DescCallback */
-#define  PROPANEL_IMGBOX                  6       /* control type: radioButton, callback function: ImgCallback */
-#define  PROPANEL_STRING                  7       /* control type: string, callback function: (none) */
-#define  PROPANEL_SEARCH                  8       /* control type: command, callback function: SearchCallback */
+#define  LISTPANEL                        2
+
+#define  PROPANEL                         3       /* callback function: PrjPanelCallback */
+#define  PROPANEL_SPLITTER                2       /* control type: splitter, callback function: (none) */
+#define  PROPANEL_STRING                  3       /* control type: string, callback function: (none) */
+#define  PROPANEL_SEARCH                  4       /* control type: command, callback function: SearchCallback */
+#define  PROPANEL_PIC_OPENPRJ             5       /* control type: picture, callback function: PIC_OpenPrjCallback */
+#define  PROPANEL_TXT_OPENPRJ             6       /* control type: textMsg, callback function: TXT_OpenPrjCallback */
+#define  PROPANEL_PIC_EXIT                7       /* control type: picture, callback function: PIC_ExitPrjCallback */
+#define  PROPANEL_TXT_EXIT                8       /* control type: textMsg, callback function: TXT_ExitPrjCallback */
 
 
      /* Control Arrays: */
@@ -41,12 +45,13 @@
 
      /* Callback Prototypes: */
 
-int  CVICALLBACK DefaultCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);
-int  CVICALLBACK DescCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);
-int  CVICALLBACK ImgCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);
-int  CVICALLBACK OpenCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);
-int  CVICALLBACK ProExitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);
+int  CVICALLBACK PIC_ExitPrjCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);
+int  CVICALLBACK PIC_OpenPrjCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);
+int  CVICALLBACK PrjPanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);
+int  CVICALLBACK PrjSelectCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);
 int  CVICALLBACK SearchCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);
+int  CVICALLBACK TXT_ExitPrjCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);
+int  CVICALLBACK TXT_OpenPrjCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);
 
 
 #ifdef __cplusplus

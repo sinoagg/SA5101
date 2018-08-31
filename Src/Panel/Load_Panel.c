@@ -77,7 +77,7 @@ int LoadInitPanel (void)
 	 if ((prjPanel = LoadPanel (mainPanel, "Ui Files/ProjectPanel.uir", PROPANEL)) < 0)		//load projects panel //µ¯³öprojects
 		return -1;
 	 
-	 if ((prjListPanel = LoadPanel (prjPanel, "Ui Files/ProjectPanel.uir", DEFPANEL)) < 0)		//load projects panel
+	 if ((prjListPanel = LoadPanel (prjPanel, "Ui Files/ProjectPanel.uir", LISTPANEL)) < 0)		//load projects panel
 		return -1;
 
 	if ((itBasicPanel = LoadPanel (mainPanel, "Ui Files/IT/i_t Configuration.uir", I_T_CFG)) < 0)		//load  right panel

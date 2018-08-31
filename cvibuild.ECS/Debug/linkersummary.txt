@@ -5,6 +5,7 @@ c_vProtocol.obj
 cpPanel.obj
 Curve.obj
 ExpListPanel.obj
+File.obj
 Graph.obj
 i_tPanel.obj
 i_tProtocol.obj

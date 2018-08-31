@@ -1,7 +1,7 @@
 #include "D:\Program Files (x86)\National Instruments\Shared\MSDTRedistributables\SDKHeaderFiles\8.1\winver.h"
 
 2 ICON "d:\\program files (x86)\\national instruments\\cvi2017\\bin\\default.ico"
-1 24 "e:\\ECS\\ECS Project\\ElectrochemicalAnalysisSystem\\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能。\\cvibuild.ECS\\Debug\\manifest.xml"
+1 24 "e:\\ECS\\ECS Project\\ElectrochemicalAnalysisSystem\\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\\cvibuild.ECS\\Debug\\manifest.xml"
 
 
 STRINGTABLE DISCARDABLE

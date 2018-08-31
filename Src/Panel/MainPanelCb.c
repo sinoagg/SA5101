@@ -14,7 +14,20 @@
 
 //==============================================================================
 // Constants
+#define VAL_TEXTBG                        0xF0F0F0L    //未被选中背景色
+#define VAL_TEXTBG_PRESSED                0x065279L    //被选中背景色
+#define TWO_TERMINAL 0
+#define EXP_I_T 1
+#define EXP_R_T 2
+#define EXP_I_V 3
+#define FOUR_TERMINAL 4
+#define EXP_ID_VDS 5
+#define EXP_ID_VGS 6
+#define EXP_ID_T 7
+#define BGCOLOR 	0xFFFFFF
+#define SEARCHCOLOR 0xA8BFCB //不可用颜色
 
+static char configSavePath[512]={0};
 //==============================================================================
 // macro define
 
@@ -30,11 +43,22 @@ int TimerID;
 int TimerID2;
 int TimerID3;
 Graph_TypeDef Graph;
+
+FileLableTypeDef *pFileLable[64];									//存所有FileLable的指针，最多只能加载一个文件夹下的64个文件
+PrjHandleTypeDef SingleProject[64];
 //==============================================================================
 // Global functions
 
 //===================================================
 //   MAIN_PANEL_Callback
+static void InitSingleProject(PrjHandleTypeDef *pSingleProject)
+{
+	int i;
+	for(i=0;i<64;i++)
+	{
+		(pSingleProject+i)->index=-1;	
+	}
+}
 
 int CVICALLBACK MAIN_PANEL_CallBack (int panel, int event, void *callbackData,
 									 int eventData1, int eventData2)
@@ -78,9 +102,9 @@ int CVICALLBACK RunCallback (int panel, int control, int event,
 			SetCtrlAttribute (graphDispPanel, GRAPHDISP_GRAPH2, ATTR_VISIBLE, 0);
  			DisplayPanel(graphDispPanel);
 			
-			SetCtrlAttribute (mainPanel, MAIN_PANEL_Run, ATTR_DIMMED,1);         //禁用 开始按钮      
-		    SetCtrlAttribute (mainPanel, MAIN_PANEL_Stop, ATTR_DIMMED, 0);       //恢复 停止按钮
-	        SetCtrlAttribute (mainPanel, MAIN_PANEL_Save, ATTR_DIMMED,1);        //禁用 保存按钮
+			SetCtrlAttribute (mainPanel, MAIN_PANEL_RUN, ATTR_DIMMED,1);         //禁用 开始按钮      
+		    SetCtrlAttribute (mainPanel, MAIN_PANEL_STOP, ATTR_DIMMED, 0);       //恢复 停止按钮
+	        SetCtrlAttribute (mainPanel, MAIN_PANEL_SAVE, ATTR_DIMMED,1);        //禁用 保存按钮
 			DeleteGraphPlot (graphDispPanel, GRAPHDISP_GRAPH1, -1, VAL_IMMEDIATE_DRAW); //清空曲线图上的所有曲线
 			LaunchExcelCB();
 			InitExcelCB (2, 3);
@@ -149,23 +173,16 @@ int CVICALLBACK RunCallback (int panel, int control, int event,
 	}
  return 0;
 }
-
-
 //===================================================
-//   StopCallback
-
-int CVICALLBACK StopCallback (int panel, int control, int event,
-							  void *callbackData, int eventData1, int eventData2)
+// StopCallback
+int CVICALLBACK StopCallback (int panel, int control, int event, void *callbackData, int eventData1, int eventData2)
 {
 	switch (event)
 	{
-		case EVENT_COMMIT:
-			//TODO
 		case EVENT_LEFT_CLICK_UP:		    //当鼠标释放时
-		  	 SetCtrlAttribute (mainPanel, MAIN_PANEL_Stop, ATTR_DIMMED,1);      //禁用 停止按钮      
-		     SetCtrlAttribute (mainPanel, MAIN_PANEL_Run, ATTR_DIMMED, 0);      //恢复 开始按钮
-			 SetCtrlAttribute (mainPanel, MAIN_PANEL_Save, ATTR_DIMMED, 0);     //恢复 保存按钮
-			 
+		  	 SetCtrlAttribute (mainPanel, MAIN_PANEL_STOP, ATTR_DIMMED,1);      //禁用 停止按钮      
+		     SetCtrlAttribute (mainPanel, MAIN_PANEL_RUN, ATTR_DIMMED, 0);      //恢复 开始按钮
+			 SetCtrlAttribute (mainPanel, MAIN_PANEL_SAVE, ATTR_DIMMED, 0);     //恢复 保存按钮
 			 graphDeinit(&Graph);
 			break;
 	}
@@ -173,43 +190,31 @@ int CVICALLBACK StopCallback (int panel, int control, int event,
 }
 
 //===================================================
-//   SaveCallback
-
-int CVICALLBACK SaveCallback (int panel, int control, int event,
-							  void *callbackData, int eventData1, int eventData2)
+//SaveCallback
+int CVICALLBACK SaveCallback (int panel, int control, int event, void *callbackData, int eventData1, int eventData2)
 {
 	switch (event)
 	{
-		case EVENT_COMMIT:
-			//TODO
-			break;
-		case EVENT_LEFT_CLICK:			    //当Save被鼠标左键点击时 
-			
-			DisplayImageFile (mainPanel, MAIN_PANEL_Save, "Resource\\Save_pressed.ico");
-			
-			break;
-			
-		case EVENT_LEFT_CLICK_UP:		    //当鼠标释放时  
-			
-			DisplayImageFile (mainPanel, MAIN_PANEL_Save, "Resource\\Save.ico");
-
+		case EVENT_LEFT_CLICK_UP:		    //当鼠标释放时
+			DisplayImageFile (mainPanel, MAIN_PANEL_SAVE, "Resource\\Save_pressed.ico");
+			DisplayImageFile (mainPanel, MAIN_PANEL_SAVE, "Resource\\Save.ico");
+			if(FileSelectPopupEx("C:\\SINOAGG\\SA5101\\Users\\", ".sac", "*.sac", "Select Path", VAL_OK_BUTTON, 0, 1,  configSavePath)>0)
+				SaveConfigToFile(configSavePath);
 			break;
 	}
 	return 0;
 }
 //===================================================
-//   SelectCallback
-
-int CVICALLBACK SelectCallback (int panel, int control, int event,
-								 void *callbackData, int eventData1, int eventData2)
+//SelectCallback
+int CVICALLBACK SelectCallback (int panel, int control, int event, void *callbackData, int eventData1, int eventData2)
 {
 	switch (event)
 	{
 		case EVENT_LEFT_CLICK_UP:			    //当Select被鼠标左键点击时,Select图标改变，其它两个正常状态 
 			
-			DisplayImageFile (mainPanel, MAIN_PANEL_Select, "Resource\\Select_pressed.ico");
-			DisplayImageFile (mainPanel, MAIN_PANEL_Configure, "Resource\\Configure.ico"); 
-			DisplayImageFile (mainPanel, MAIN_PANEL_Analyze, "Resource\\Analyze.ico");
+			DisplayImageFile (mainPanel, MAIN_PANEL_SELECT, "Resource\\Select_pressed.ico");
+			DisplayImageFile (mainPanel, MAIN_PANEL_CONFIGURE, "Resource\\Configure.ico"); 
+			DisplayImageFile (mainPanel, MAIN_PANEL_ANALYZE, "Resource\\Analyze.ico");
 			
 			SetPanelPos(graphDispPanel, 105, 305);     //top left
 			SetPanelSize(graphDispPanel, 921, 1285);   //height width   
@@ -219,32 +224,25 @@ int CVICALLBACK SelectCallback (int panel, int control, int event,
 			HidePanel(resultPanel);
 			HidePanel(environmentPanel);
 			break;
-	
 	}
 	return 0;
 }
-
 //===================================================
-//   Configure_Callback
-
-int CVICALLBACK ConfigureCallback (int panel, int control, int event,
-									void *callbackData, int eventData1, int eventData2)
+//Configure_Callback
+int CVICALLBACK ConfigureCallback (int panel, int control, int event, void *callbackData, int eventData1, int eventData2)
 {
 	switch (event)
 	{
- 		case EVENT_LEFT_CLICK_UP:			    //当Configure被鼠标左键点击时,Configure图标改变，其它两个正常状态 
-			
-			DisplayImageFile (mainPanel, MAIN_PANEL_Select, "Resource\\Select.ico");
-			DisplayImageFile (mainPanel, MAIN_PANEL_Configure, "Resource\\Configure_pressed.ico"); 
-			DisplayImageFile (mainPanel, MAIN_PANEL_Analyze, "Resource\\Analyze.ico");
-			
+		case EVENT_LEFT_CLICK_UP:			    //当Configure被鼠标左键点击时,Configure图标改变，其它两个正常状态 
+			DisplayImageFile (mainPanel, MAIN_PANEL_SELECT, "Resource\\Select.ico");
+			DisplayImageFile (mainPanel, MAIN_PANEL_CONFIGURE, "Resource\\Configure_pressed.ico"); 
+			DisplayImageFile (mainPanel, MAIN_PANEL_ANALYZE, "Resource\\Analyze.ico");
 			break;
 		case EVENT_LEFT_CLICK:
-			
 			SetPanelPos(itBasicPanel, 105, 1592); //top   left
 			SetPanelSize(itBasicPanel, 500, 308);// height  width
 			DisplayPanel(itBasicPanel);
-			
+
 			SetPanelPos(environmentPanel, 605, 1592);
 			SetPanelSize(environmentPanel, 421, 308);
 			DisplayPanel(environmentPanel);
@@ -252,43 +250,65 @@ int CVICALLBACK ConfigureCallback (int panel, int control, int event,
 	}
 	return 0;
 }
-
 //===================================================
 //   Analyze_Callback
-
-int CVICALLBACK AnalyzeCallback (int panel, int control, int event,
-								  void *callbackData, int eventData1, int eventData2)
+int CVICALLBACK AnalyzeCallback (int panel, int control, int event, void *callbackData, int eventData1, int eventData2)
 {
 	switch (event)
 	{
 		case EVENT_LEFT_CLICK:
-				
-				SetPanelPos(resultPanel, 105, 305);  
-		     	SetPanelSize(resultPanel, 70, 1285);      
-	 			DisplayPanel(resultPanel);  
-				
-				
+			SetPanelPos(resultPanel, 105, 305);  
+			SetPanelSize(resultPanel, 70, 1285);      
+			DisplayPanel(resultPanel);  
 
-				SetPanelPos(graphDispPanel, 175, 305);  
-		     	SetPanelSize(graphDispPanel, 842, 1285);      
-	 			DisplayPanel(graphDispPanel);
-			
-
-
+			SetPanelPos(graphDispPanel, 175, 305);  
+			SetPanelSize(graphDispPanel, 842, 1285);      
+			DisplayPanel(graphDispPanel);
 			break;
- 		case EVENT_LEFT_CLICK_UP:			    //当Analyze被鼠标左键点击时,Analyze图标改变，其它两个正常状态， 
-			
-			DisplayImageFile (mainPanel, MAIN_PANEL_Select, "Resource\\Select.ico");
-			DisplayImageFile (mainPanel, MAIN_PANEL_Configure, "Resource\\Configure.ico"); 
-			DisplayImageFile (mainPanel, MAIN_PANEL_Analyze, "Resource\\Analyze_pressed.ico");
-		
+		case EVENT_LEFT_CLICK_UP:			    //当Analyze被鼠标左键点击时,Analyze图标改变，其它两个正常状态， 
+			DisplayImageFile (mainPanel, MAIN_PANEL_SELECT, "Resource\\Select.ico");
+			DisplayImageFile (mainPanel, MAIN_PANEL_CONFIGURE, "Resource\\Configure.ico"); 
+			DisplayImageFile (mainPanel, MAIN_PANEL_ANALYZE, "Resource\\Analyze_pressed.ico");
 			break;
-			
-			
 	}
 	return 0;
 }
-
+//===================================================
+//弹出projects内容
+int CVICALLBACK ProjectCallback (int panel, int control, int event, void *callbackData, int eventData1, int eventData2)
+{
+	switch(event)
+	{
+		case EVENT_LEFT_CLICK_UP:
+			SetPanelPos(prjPanel,150,300);
+			InstallPopup (prjPanel);
+		 	SetCtrlAttribute(prjPanel,PROPANEL_PIC_OPENPRJ , ATTR_DIMMED, 1);
+			SetCtrlAttribute(prjPanel,PROPANEL_TXT_OPENPRJ , ATTR_TEXT_BGCOLOR,SEARCHCOLOR);
+			SetCtrlAttribute(prjPanel,PROPANEL_TXT_OPENPRJ , ATTR_DIMMED, 1);
+			SetPanelPos(prjListPanel,90,0);
+			DisplayPanel(prjListPanel); 
+			LoadAllProject(ProjectSavePath);
+			break;
+	}	 
+	return 0;
+}
+//===================================================
+//SettingCallback
+int CVICALLBACK SettingsCallback (int panel, int control, int event, void *callbackData, int eventData1, int eventData2)
+{
+	switch (event)
+	{
+		case EVENT_LEFT_CLICK_UP:
+			InstallPopup (settingsPanel);    //弹出hSettingsPanel 
+			SetPanelPos(settingsPanel, 5, 170);
+			SetPanelSize(settingsPanel, 350, 650);
+			DisplayPanel(settingsPanel);
+			break;
+	}
+	return 0;
+}
+//===================================================
+//SaveConfigToFile
 static int SaveConfigToFile(char* pConfigSavePath)
 {
 	FILE * fp = NULL;							//表示打开的文件
@@ -296,60 +316,87 @@ static int SaveConfigToFile(char* pConfigSavePath)
 	if(fp == NULL)
 	{
 		MessagePopup ("Error", "Invalid Path, please select path to save configurations.");
-		if(FileSelectPopup ("C:\\SINOAGG\\SA6101\\", ".sac", "*.sac", "Select Path", VAL_OK_BUTTON, 0, 1, 1, 1, pConfigSavePath)<0)
+		if(FileSelectPopup ("C:\\SINOAGG\\SA6101\\Users\\", ".sac", "*.sac", "Select Path", VAL_OK_BUTTON, 0, 1, 1, 1, pConfigSavePath)<0)
 			return -1;
 	}
 	else
 	{
-		int maxCommentSize=255;
-		char comment[maxCommentSize];
-		//GetIdVdCfg(IdVdPanel);						//获取IdVd面板设置
-		//GetIdVgCfg(IdVgPanel);						//获取IdVg面板设置
-		//GetITCfg(hIT_Panel);
-		//GetRTCfg(hRT_Panel);
-		//GetSampleCfg(samplePanel);
-		//GetEnvironmentCfg(hEnvCfgPanel);
+		int maxCommentSize=255;     //描述字节的最大值
+		char comment[maxCommentSize];   //描述
 		PromptPopup("Message", "Please enter comment for this configuration:", comment, maxCommentSize-1);
 		fprintf(fp, "Date:%s	Time:%s\r\n", DateStr(), TimeStr());
+		SaveAllPanelState(pConfigSavePath);		//保存所有面板的数据
+		fp = fopen(pConfigSavePath, "a+");
 		fprintf(fp, "Comment: %s", comment);
-		
 		fclose(fp);//关闭文件
 	}
 	return 0;
-	
 }
-
-
-int CVICALLBACK SettingsCallback (int panel, int control, int event,
-								  void *callbackData, int eventData1, int eventData2)
+//===================================================
+// SaveAllPanelState
+static int SaveAllPanelState(char* pConfigSavePath)
 {
-	switch (event)
-	{
-		case EVENT_LEFT_CLICK_UP:
-	         InstallPopup (settingsPanel);    //弹出hSettingsPanel 
-
-			SetPanelPos(settingsPanel, 5, 170);
-			SetPanelSize(settingsPanel, 350, 650);
-			DisplayPanel(settingsPanel);
-
-			break;
-	}
+	SavePanelState(settingsGraphPanel, pConfigSavePath, 0);
+	SavePanelState(environmentPanel, pConfigSavePath, 1);						
+	SavePanelState(expListPanel, pConfigSavePath, 2);						
+	SavePanelState(itBasicPanel, pConfigSavePath, 3);
+	SavePanelState(itAdvancePanel, pConfigSavePath, 4);
+	SavePanelState(cvBasicPanel,pConfigSavePath, 5);
+	SavePanelState(cvAdvancePanel, pConfigSavePath, 6);
+	SavePanelState(lsvBasicPanel, pConfigSavePath, 10);
+	SavePanelState(lsvAdvancePanel, pConfigSavePath, 11);
+	SavePanelState(scvAdvancePanel, pConfigSavePath, 14);
+	SavePanelState(scvBasicPanel, pConfigSavePath, 15);
+	SavePanelState(npvBasicPanel, pConfigSavePath, 16);
+	SavePanelState(npvAdvancePanel, pConfigSavePath, 17);
 	return 0;
 }
-
-//弹出projects内容
-int CVICALLBACK ProjectCallback (int panel, int control, int event,
-								 void *callbackData, int eventData1, int eventData2)
+//===================================================
+//LoadAndDispPrj
+static int LoadAndDispPrj(FileLableTypeDef *pFileLable, char index)						//index为prj所在位置排序
 {
-	switch(event){
-		case EVENT_LEFT_CLICK_UP:
+	int hSinglePrjPanel;
+	if ((hSinglePrjPanel = LoadPanel (prjListPanel, "ProjectPanel.uir", DEFPANEL)) < 0)		//load projects panel
+		return -1;
+	SetCtrlVal(hSinglePrjPanel, DEFPANEL_NAME, pFileLable->FileName);
+	SetCtrlVal(hSinglePrjPanel, DEFPANEL_DATE, pFileLable->FileDate);
+	SetCtrlVal(hSinglePrjPanel, DEFPANEL_TIME, pFileLable->FileTime);
+	SetCtrlVal(hSinglePrjPanel, DEFPANEL_DESC, pFileLable->FileDesc);
+	SetPanelPos(hSinglePrjPanel, index*117, -10);
+	SetPanelSize(hSinglePrjPanel, 115, 1425);
+	DisplayPanel(hSinglePrjPanel);
+	return hSinglePrjPanel;
+}
+//===================================================
+//LoadAllProject
+static int LoadAllProject(char* pProjectSavePath)
+{
+	char tempFileName[512];
+	char tempFilePath[512];
+	char index=0;
+	char tempPathToSearch[512];
+	
+	InitSingleProject(SingleProject);
+	
+	sprintf(tempPathToSearch, "%s%s", pProjectSavePath, "\\*.sac");
+	if(0==GetFirstFile(tempPathToSearch, 1, 1, 1, 1, 1, 0, tempFileName))		//如果第一个文件获取成功
+	{
+		sprintf(tempFilePath, "%s%s%s", pProjectSavePath, "\\", tempFileName);
+		pFileLable[index] = (FileLableTypeDef *)malloc(sizeof(FileLableTypeDef));
+		InitFileLable(pFileLable[index], tempFilePath); 				//读文件时间和文件名称及description，并展示
+		SingleProject[index].hSinglePrjPanel = LoadAndDispPrj(pFileLable[index], index);
+		SingleProject[index].index=index;
+		index++;
 		
-			InstallPopup (prjPanel); 
-			SetPanelPos(prjListPanel, 90, -10);
-			SetPanelSize(prjListPanel, 115, 1300);
-			DisplayPanel(prjListPanel);  
-			break;
-	}	 
-	 
+		while(GetNextFile(tempFileName)==0)								//如果读取正确，持续读取
+		{
+			sprintf(tempFilePath, "%s%s%s", pProjectSavePath, "\\", tempFileName);
+			pFileLable[index] = (FileLableTypeDef *)malloc(sizeof(FileLableTypeDef));
+			InitFileLable(pFileLable[index], tempFilePath); //读文件时间和文件名称及description
+			SingleProject[index].hSinglePrjPanel = LoadAndDispPrj(pFileLable[index], index);
+			SingleProject[index].index=index;
+			index++;
+		}
+	}
 	return 0;
 }

@@ -23,20 +23,20 @@
 #define  MAIN_PANEL_TEXTMSG_4             8       /* control type: textMsg, callback function: (none) */
 #define  MAIN_PANEL_CANVAS                9       /* control type: canvas, callback function: (none) */
 #define  MAIN_PANEL_TEXTMSG_6             10      /* control type: textMsg, callback function: (none) */
-#define  MAIN_PANEL_PICTURE_10            11      /* control type: picture, callback function: ProjectCallback */
-#define  MAIN_PANEL_PICTURE_9             12      /* control type: picture, callback function: (none) */
-#define  MAIN_PANEL_PICTURE_11            13      /* control type: picture, callback function: SettingsCallback */
+#define  MAIN_PANEL_PROJECTS              11      /* control type: picture, callback function: ProjectCallback */
+#define  MAIN_PANEL_TOOLS                 12      /* control type: picture, callback function: (none) */
+#define  MAIN_PANEL_SETTINGS              13      /* control type: picture, callback function: SettingsCallback */
 #define  MAIN_PANEL_TEXTMSG_8             14      /* control type: textMsg, callback function: (none) */
 #define  MAIN_PANEL_TEXTMSG_9             15      /* control type: textMsg, callback function: (none) */
 #define  MAIN_PANEL_TEXTMSG_7             16      /* control type: textMsg, callback function: (none) */
 #define  MAIN_PANEL_CANVAS_3              17      /* control type: canvas, callback function: (none) */
-#define  MAIN_PANEL_Stop                  18      /* control type: picture, callback function: StopCallback */
-#define  MAIN_PANEL_Run                   19      /* control type: picture, callback function: RunCallback */
-#define  MAIN_PANEL_Select                20      /* control type: picture, callback function: SelectCallback */
-#define  MAIN_PANEL_Configure             21      /* control type: picture, callback function: ConfigureCallback */
-#define  MAIN_PANEL_Analyze               22      /* control type: picture, callback function: AnalyzeCallback */
+#define  MAIN_PANEL_STOP                  18      /* control type: picture, callback function: StopCallback */
+#define  MAIN_PANEL_RUN                   19      /* control type: picture, callback function: RunCallback */
+#define  MAIN_PANEL_SELECT                20      /* control type: picture, callback function: SelectCallback */
+#define  MAIN_PANEL_CONFIGURE             21      /* control type: picture, callback function: ConfigureCallback */
+#define  MAIN_PANEL_ANALYZE               22      /* control type: picture, callback function: AnalyzeCallback */
 #define  MAIN_PANEL_CANVAS_2              23      /* control type: canvas, callback function: (none) */
-#define  MAIN_PANEL_Save                  24      /* control type: picture, callback function: SaveCallback */
+#define  MAIN_PANEL_SAVE                  24      /* control type: picture, callback function: SaveCallback */
 
 
      /* Control Arrays: */
