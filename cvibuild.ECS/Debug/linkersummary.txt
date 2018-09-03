@@ -30,12 +30,12 @@ TablePanel.obj
 Timer.obj
 userManage.obj
 cvi.lib
+cviauto.lib
 cvistart.lib
 excelreport.obj
 inifile.obj
 kernel32.lib
 advapi32.lib
-cviauto.lib
 excel2000.obj
 toolbox.obj
 user32.lib

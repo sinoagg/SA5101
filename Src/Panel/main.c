@@ -3,9 +3,8 @@
 #include <cvirte.h>		
 #include <userint.h>
 #include <rs232.h>
-
-#include "system_ini.h"
 #include "Load_Panel.h"
+#include "system_ini.h"
 #include "MainPanelCb.h" 
 
 unsigned char comSelect;				//Serial Com Number

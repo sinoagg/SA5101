@@ -1,48 +1,48 @@
 -nologo
--out:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\ECS.exe
+-out:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\ECS.exe
 -arch:x86
 -timestamp
 -debug:2
--res:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\resources.res
+-res:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\resources.res
 -entry:_CVIWinMainStartupCodeForDebugging@0
 -base:0x400000
--linked:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\linkersummary.txt
--dlldeps:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\dlldependencies.txt
--licensing:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\linkerlicensing.txt
--browsedeps:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\moduledependencies.txt
+-linked:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\linkersummary.txt
+-dlldeps:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\dlldependencies.txt
+-licensing:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\linkerlicensing.txt
+-browsedeps:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\moduledependencies.txt
 -stackreserve:1048576
 -stackcommit:4096
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\AbnormalDataCache.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\asynctmr.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\c_vPanel.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\c_vProtocol.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\cpPanel.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\Curve.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\ExpListPanel.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\File.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\Graph.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\i_tPanel.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\i_tProtocol.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\Load_Panel.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\lsvPanel.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\lsvProtocol.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\main.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\MainPanelCb.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\npvPanel.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\npvProtocol.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\ocptPanel.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\ProjectPanel.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\Result Menu.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\scvPanel.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\scvProtocol.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\SerialCommand.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\SettingsPanel.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\swvPanel.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\swvProtocol.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\system_ini.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\TablePanel.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\Timer.obj
--in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\userManage.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\AbnormalDataCache.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\asynctmr.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\c_vPanel.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\c_vProtocol.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\cpPanel.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\Curve.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\ExpListPanel.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\File.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\Graph.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\i_tPanel.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\i_tProtocol.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\Load_Panel.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\lsvPanel.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\lsvProtocol.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\main.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\MainPanelCb.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\npvPanel.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\npvProtocol.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\ocptPanel.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\ProjectPanel.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\Result Menu.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\scvPanel.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\scvProtocol.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\SerialCommand.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\SettingsPanel.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\swvPanel.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\swvProtocol.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\system_ini.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\TablePanel.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\Timer.obj
+-in:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\userManage.obj
 -more:d:\program files (x86)\national instruments\cvi2017\bin\msvc\cvistart.lib
 -more:d:\program files (x86)\national instruments\cvi2017\bin\msvc\cvi.lib
 -more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\advapi32.lib
@@ -54,7 +54,7 @@
 -more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\cvintwrk.lib
 -more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\cvitdms.lib
 -more:d:\Program Files (x86)\National Instruments\CVI2017\toolslib\activex\excel\msvc\excel2000.obj
--more:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能\cvibuild.ECS\Debug\excelreport.obj
+-more:e:\ECS\ECS Project\ElectrochemicalAnalysisSystem\SA5102 Software 日期是0829 继0811之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能\cvibuild.ECS\Debug\excelreport.obj
 -more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\gdi32.lib
 -more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\gpib.lib
 -more:d:\Program Files (x86)\National Instruments\CVI2017\toolslib\toolbox\msvc\inifile.obj

@@ -11,24 +11,15 @@
 #ifndef __AbnormalDataCache_H__
 #define __AbnormalDataCache_H__
 
-
-#include "excelreport.h" 
-#include "cvidef.h"
-
 #ifdef __cplusplus
     extern "C" {
 #endif
 
-		
-#ifndef INCLUDE_AFTER_WINDOWS_H
-
-#include <utility.h>
-
-#define INCLUDE_AFTER_WINDOWS_H
-#endif
 //==============================================================================
 // Include files
-
+#include "excelreport.h"
+#include <utility.h>  
+#include "cvidef.h"
 //==============================================================================
 // Constants
 
@@ -43,7 +34,6 @@
 int LaunchExcelCB ();
 int ShowAndOpenExcelCB ();
 int ShutDownExcelCB();
-int InitExcelCB (int numberOfRows, int numberOfColumns);
 int SaveExcelCB(int panel, int control);
 #ifdef __cplusplus
     }

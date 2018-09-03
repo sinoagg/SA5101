@@ -45,14 +45,6 @@ int CVICALLBACK TimerCallback (int reserved, int timerId, int event, void *callb
 	
 	if(numOfDotsToPlot>0)
 	{
-		
-		int n = 1;
-		if(Graph.pCurveArray->numOfPlotDots > 0 && Graph.pCurveArray->numOfPlotDots >= (Graph.pCurveArray->numOfTotalDots * n) / 10)
-		{
-			SaveExcelCB(tablePanel, TABLE_TABLE);
-			n +=1;
-		}
-		
 	   	if(Graph.pCurveArray->numOfPlotDots >= 1)																//如果有需要画图的点
 		{
 			//把电流在曲线图上从左至右实时更新

@@ -14,17 +14,11 @@
 #ifdef __cplusplus
     extern "C" {
 #endif
-
-#ifndef INCLUDE_AFTER_WINDOWS_H
-
-#include "AbnormalDataCache.h"
-
-#define INCLUDE_AFTER_WINDOWS_H
-#endif
 //==============================================================================
 // Include files
-#include <userint.h> 
+#include <userint.h>
 #include "cvidef.h"
+#include "AbnormalDataCache.h"
 #include "MainPanel.h"
 #include "Experiment List.h"
 #include "GraphDisp.h"
@@ -35,10 +29,9 @@
 #include "Settings.h"
 #include "ProjectPanel.h"
 #include "system_ini.h"
-		
 #include "MainPanelCb.h"
 #include "MainPanel.h"  
-
+		
 #include "i_t Configuration.h"
 #include "c_v Configuration.h"
 #include "lsv Configuration.h"

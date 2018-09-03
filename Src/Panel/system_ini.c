@@ -48,11 +48,6 @@ int SaveSystemClose(int temp)
 	{
 	  Ini_PutInt (myInifile,"System","systemClose",temp);	
 	}
-	else
-	{
-	  temp = -1;
-	  Ini_PutInt (myInifile,"System","systemClose",temp);	
-	}
 	Ini_WriteToFile(myInifile,pathName);
 	Ini_Dispose(myInifile);
 	myInifile = 0;

@@ -44,11 +44,13 @@ int TimerID2;
 int TimerID3;
 Graph_TypeDef Graph;
 
+CmtThreadFunctionID  abnmDCthreadFunctionID; 
+
 FileLableTypeDef *pFileLable[64];									//存所有FileLable的指针，最多只能加载一个文件夹下的64个文件
 PrjHandleTypeDef SingleProject[64];
 //==============================================================================
 // Global functions
-
+int CVICALLBACK AbnmDCThreadFunction (void *functionData);
 //===================================================
 //   MAIN_PANEL_Callback
 static void InitSingleProject(PrjHandleTypeDef *pSingleProject)
@@ -81,7 +83,6 @@ int CVICALLBACK MAIN_PANEL_CallBack (int panel, int event, void *callbackData,
 
 //===================================================
 //   RunCallback
-
 int CVICALLBACK RunCallback (int panel, int control, int event,
 							 void *callbackData, int eventData1, int eventData2)
 {
@@ -106,8 +107,6 @@ int CVICALLBACK RunCallback (int panel, int control, int event,
 		    SetCtrlAttribute (mainPanel, MAIN_PANEL_STOP, ATTR_DIMMED, 0);       //恢复 停止按钮
 	        SetCtrlAttribute (mainPanel, MAIN_PANEL_SAVE, ATTR_DIMMED,1);        //禁用 保存按钮
 			DeleteGraphPlot (graphDispPanel, GRAPHDISP_GRAPH1, -1, VAL_IMMEDIATE_DRAW); //清空曲线图上的所有曲线
-			LaunchExcelCB();
-			InitExcelCB (2, 3);
 			if(comSelect)
 			{
 				MessagePopup ("Warning", "Instrument Unconnected");   //Lost serial Connection
@@ -164,6 +163,7 @@ int CVICALLBACK RunCallback (int panel, int control, int event,
 						   TimerID = NewAsyncTimer(I_tCfg.cfgI_t_sampleinterval,-1, 1, TimerCallback, 0);		//Create Asynchronous (Timer time interval 1s, continue generating evernt, enabled, callback function name, passing no pointer)       
 						   TimerID3 = NewAsyncTimer(1,-1,1,TimerCallback3,0);	  //发送一次命令；下位机一直返回数据
 						 }
+						 CmtScheduleThreadPoolFunction (DEFAULT_THREAD_POOL_HANDLE, AbnmDCThreadFunction,  NULL, &abnmDCthreadFunctionID);
 						 break;
 					default:
 						break;
@@ -400,3 +400,20 @@ static int LoadAllProject(char* pProjectSavePath)
 	}
 	return 0;
 }
+
+
+int CVICALLBACK AbnmDCThreadFunction (void *functionData)
+{
+	int n = 1; 
+	while (Graph.pCurveArray->numOfPlotDots < Graph.pCurveArray->numOfTotalDots) 
+	{
+		if(Graph.pCurveArray->numOfPlotDots > 0 && Graph.pCurveArray->numOfPlotDots >= (Graph.pCurveArray->numOfTotalDots * n) / 10)
+		{
+			LaunchExcelCB();
+			SaveExcelCB(tablePanel, TABLE_TABLE);
+			n +=1;
+		}
+	}
+	return 0;
+}
+

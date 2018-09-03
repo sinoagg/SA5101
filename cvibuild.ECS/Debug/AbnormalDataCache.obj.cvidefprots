@@ -10,10 +10,6 @@ Prototype="int ShutDownExcelCB();"
 Class="Function"
 Prototype="int ShowAndOpenExcelCB();"
 
-[InitExcelCB]
-Class="Function"
-Prototype="int InitExcelCB(int numberOfRows, int numberOfColumns);"
-
 [SaveExcelCB]
 Class="Function"
 Prototype="int SaveExcelCB(int panel, int control);"

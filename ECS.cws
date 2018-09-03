@@ -1,7 +1,7 @@
 [Workspace Header]
 Version = 1700
 Pathname Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Pathname Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/ECS.cws"
+Pathname Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/ECS.cws"
 CVI Dir = "/d/program files (x86)/national instruments/cvi2017"
 CVI Shared Dir = "/D/Program Files (x86)/National Instruments/Shared/CVI"
 CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2017"
@@ -47,11 +47,11 @@ Project 0001 Folder Include Files/SWV Collapsed = True
 Project 0001 FolderId 21 Collapsed = True
 Project 0001 Folder Resource Collapsed = True
 Project 0001 FolderId 22 Collapsed = True
-Drag Bar Left = 321
-Window Top = 30
-Window Left = 1782
-Window Bottom = 700
-Window Right = 2864
+Drag Bar Left = 245
+Window Top = 227
+Window Left = 2091
+Window Bottom = 897
+Window Right = 3173
 Maximized = True
 Maximized Children = True
 Max32 Number Of Errors = 20
@@ -65,9 +65,9 @@ Save Changes Before Compiling = "Always"
 Hide Windows = False
 Break At First Statement = False
 Sort Type = "File Name"
-Number of Opened Files = 15
+Number of Opened Files = 10
 Window Confinement Region Enabled = True
-MainColumnWidth = 304
+MainColumnWidth = 228
 FileDateColumnWidth = 70
 FileSizeColumnWidth = 70
 
@@ -81,203 +81,140 @@ Batch Build Release = False
 Batch Build Debug = False
 
 [File 0001]
-Path = "/d/Program Files (x86)/National Instruments/CVI2017/toolslib/toolbox/inifile.fp"
+Path Line0001 = "/d/Program Files (x86)/National Instruments/CVI2017/toolslib/activex/excel/excel"
+Path Line0002 = "report.fp"
 File Type = "Function Panel"
 Disk Date = 3573565200
 In Projects = "1,"
 
 [File 0002]
-Path Line0001 = "/d/program files (x86)/national instruments/cvi2017/toolslib/activex/excel/excel"
-Path Line0002 = "report.fp"
+Path = "/d/Program Files (x86)/National Instruments/CVI2017/toolslib/toolbox/inifile.fp"
 File Type = "Function Panel"
 Disk Date = 3573565200
 In Projects = "1,"
 
 [File 0003]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/m"
-Path Line0003 = "ain.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Abnor"
+Path Line0003 = "malDataCache.c"
 File Type = "CSource"
-Disk Date = 3618385569
-In Projects = "1,"
-Window Top = 30
-Window Z-Order = 11
-Source Window State = "1,21,23,21,6,18,6,0,0,41,0,0,0,0,0,15,50,0,26,4,400,600,1,0,"
-
-[File 0004]
-Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/M"
-Path Line0003 = "ainPanelCb.c"
-File Type = "CSource"
-Disk Date = 3618528531
-In Projects = "1,"
-Window Top = 32
-Window Left = 10
-Window Z-Order = 3
-Source Window State = "1,323,330,330,0,29,29,0,0,80,0,122,0,0,0,25,316,0,322,5,635,1072,1,0,"
-
-[File 0005]
-Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/P"
-Path Line0003 = "rojectPanel.c"
-File Type = "CSource"
-Disk Date = 3618528611
+Disk Date = 3618819303
 In Projects = "1,"
 Window Top = 32
 Window Left = 10
 Window Z-Order = 2
-Source Window State = "1,119,119,119,44,45,45,0,0,80,0,0,0,0,0,17,78,0,123,29,443,1072,1,0,"
+Source Window State = "1,68,68,68,4,15,15,0,0,110,0,0,0,0,0,23,39,0,75,49,515,1072,1,0,"
 
-[File 0006]
+[File 0004]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Ma"
-Path Line0003 = "inPanel.uir"
-File Type = "User Interface Resource"
-Disk Date = 3618466532
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Abnor"
+Path Line0003 = "malDataCache.h"
+File Type = "Include"
+Disk Date = 3618817765
 In Projects = "1,"
-Window Top = 32
-Window Left = 10
-Window Height = 443
-Window Width = 1024
-Window Z-Order = 5
+Window Top = 62
+Window Left = 26
+Window Z-Order = 9
+Source Window State = "1,36,36,36,0,57,57,0,0,110,0,0,0,0,0,28,11,0,36,6,635,1072,1,0,"
 
-[File 0007]
+[File 0005]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/L"
-Path Line0003 = "oad_Panel.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Load_"
+Path Line0003 = "Panel.c"
 File Type = "CSource"
 Disk Date = 3618462853
 In Projects = "1,"
 Window Top = 92
 Window Left = 42
+Source Window State = "1,171,171,171,7,25,25,0,0,110,0,0,0,0,0,24,154,0,171,28,539,1072,1,0,"
+
+[File 0006]
+Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/main."
+Path Line0003 = "c"
+File Type = "CSource"
+Disk Date = 3618548796
+In Projects = "1,"
+Window Top = 30
+Window Z-Order = 6
+Source Window State = "1,27,27,27,4,19,19,0,0,57,0,0,0,0,0,17,25,0,27,14,400,600,1,0,"
+
+[File 0007]
+Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/MainP"
+Path Line0003 = "anelCb.c"
+File Type = "CSource"
+Disk Date = 3618819662
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
 Window Z-Order = 1
-Source Window State = "1,167,173,173,0,23,23,0,3,124,0,39,0,0,0,23,154,0,167,0,539,1072,1,0,"
+Source Window State = "1,411,413,411,12,18,12,0,0,177,0,122,0,0,0,30,391,0,414,22,635,1072,1,0,"
 
 [File 0008]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/L"
-Path Line0003 = "oad_Panel.h"
-File Type = "Include"
-Disk Date = 3618368099
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/syste"
+Path Line0003 = "m_ini.c"
+File Type = "CSource"
+Disk Date = 3618818152
 In Projects = "1,"
-Window Top = 62
-Window Left = 26
-Window Z-Order = 9
-Source Window State = "1,70,70,70,4,16,16,0,3,80,0,0,0,0,0,21,64,0,70,4,539,1072,1,0,"
+Window Top = 32
+Window Left = 10
+Window Z-Order = 8
+Source Window State = "1,51,54,54,0,8,8,0,0,110,0,0,0,0,0,28,30,0,53,14,635,1072,1,0,"
 
 [File 0009]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/M"
-Path Line0003 = "ainPanelCb.h"
-File Type = "Include"
-Disk Date = 3618465037
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/IT/i_tProto"
+Path Line0003 = "col.c"
+File Type = "CSource"
+Disk Date = 3618354751
 In Projects = "1,"
-Window Top = 62
-Window Left = 26
-Window Z-Order = 8
-Source Window State = "1,70,70,70,11,25,25,0,3,80,0,52,0,0,0,21,52,0,70,11,539,1072,1,13,"
+Window Top = 152
+Window Left = 74
+Window Z-Order = 4
+Source Window State = "1,18,19,19,11,18,18,0,0,110,0,321,0,0,0,23,301,0,326,44,515,1072,1,53,"
 
 [File 0010]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Ma"
-Path Line0003 = "inPanel.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Load_"
+Path Line0003 = "Panel.h"
 File Type = "Include"
-Disk Date = 3618456230
+Disk Date = 3618548293
 In Projects = "1,"
-Window Top = 92
-Window Left = 42
-Window Z-Order = 12
-Source Window State = "1,36,36,36,9,27,27,0,0,80,0,0,0,0,0,20,33,0,36,21,515,1072,1,0,"
+Window Top = 62
+Window Left = 26
+Window Z-Order = 7
+Source Window State = "1,20,20,20,0,30,30,0,0,110,0,0,0,0,0,24,3,0,23,25,539,1072,1,0,"
 
 [File 0011]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Pr"
-Path Line0003 = "ojectPanel.uir"
-File Type = "User Interface Resource"
-Disk Date = 3618460536
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/MainP"
+Path Line0003 = "anelCb.h"
+File Type = "Include"
+Disk Date = 3618548895
 In Projects = "1,"
-Window Top = 242
-Window Left = 122
-Window Height = 563
-Window Width = 1072
-Window Z-Order = 4
+Window Top = 62
+Window Left = 26
+Window Z-Order = 5
+Source Window State = "1,17,22,22,0,6,6,0,0,110,0,52,0,0,0,24,9,0,18,18,539,1072,1,13,"
 
 [File 0012]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/F"
-Path Line0003 = "ile.c"
-File Type = "CSource"
-Disk Date = 3618182349
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/syste"
+Path Line0003 = "m_ini.h"
+File Type = "Include"
+Disk Date = 3618370471
 In Projects = "1,"
-Window Top = 62
-Window Left = 26
-Window Z-Order = 14
-Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,15,0,0,7,24,395,1072,1,0,"
+Window Top = 32
+Window Left = 10
+Window Z-Order = 10
+Source Window State = "1,33,33,33,4,19,19,0,3,110,0,0,0,0,0,17,25,0,33,4,395,1072,1,0,"
 
 [File 0013]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/F"
-Path Line0003 = "ile.h"
-File Type = "Include"
-Disk Date = 3618182349
-In Projects = "1,"
-Window Top = 32
-Window Left = 10
-Window Z-Order = 15
-Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,15,12,0,0,0,395,1072,1,0,"
-
-[File 0014]
-Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/T"
-Path Line0003 = "imer.c"
-File Type = "CSource"
-Disk Date = 3618371386
-In Projects = "1,"
-Window Top = 122
-Window Left = 58
-Window Z-Order = 13
-Source Window State = "1,58,58,58,21,35,35,0,3,80,0,0,0,0,0,21,47,0,58,21,539,1072,1,0,"
-
-[File 0015]
-Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/S"
-Path Line0003 = "ettingsPanel.c"
-File Type = "CSource"
-Disk Date = 3618524128
-In Projects = "1,"
-Window Top = 62
-Window Left = 26
-Window Z-Order = 6
-Source Window State = "1,16,16,16,48,55,55,0,3,80,0,0,0,0,0,17,9,0,16,48,443,1072,1,0,"
-
-[File 0016]
-Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/S"
-Path Line0003 = "ettingsPanel.h"
-File Type = "Include"
-Disk Date = 3618464141
-In Projects = "1,"
-Window Top = 32
-Window Left = 10
-Window Z-Order = 7
-Source Window State = "1,21,21,21,12,27,27,0,3,80,0,0,0,0,0,16,6,0,21,12,419,1072,1,0,"
-
-[File 0017]
-Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Pr"
-Path Line0003 = "ojectPanel.h"
-File Type = "Include"
-Disk Date = 3618460536
-In Projects = "1,"
-Window Top = 92
-Window Left = 42
-Window Z-Order = 10
-Source Window State = "1,15,15,15,9,17,17,0,3,80,0,0,0,0,0,17,12,0,15,9,443,1072,1,0,"
-
-[File 0018]
-Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/CV"
-Path Line0003 = "/c_v Configuration.uir"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/CV/c_v"
+Path Line0003 = " Configuration.uir"
 File Type = "User Interface Resource"
 Disk Date = 3616126252
 In Projects = "1,"
@@ -286,10 +223,10 @@ Window Left = 58
 Window Height = 515
 Window Width = 1072
 
-[File 0019]
+[File 0014]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/CP"
-Path Line0003 = "/cp Configuration.uir"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/CP/cp "
+Path Line0003 = "Configuration.uir"
 File Type = "User Interface Resource"
 Disk Date = 3616129245
 In Projects = "1,"
@@ -298,10 +235,10 @@ Window Left = 10
 Window Height = 515
 Window Width = 1072
 
-[File 0020]
+[File 0015]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/En"
-Path Line0003 = "vironment.uir"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/Enviro"
+Path Line0003 = "nment.uir"
 File Type = "User Interface Resource"
 Disk Date = 3614638880
 In Projects = "1,"
@@ -310,10 +247,10 @@ Window Left = 74
 Window Height = 563
 Window Width = 1072
 
-[File 0021]
+[File 0016]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Ex"
-Path Line0003 = "periment List.uir"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/Experi"
+Path Line0003 = "ment List.uir"
 File Type = "User Interface Resource"
 Disk Date = 3616127609
 In Projects = "1,"
@@ -322,10 +259,10 @@ Window Left = 58
 Window Height = 443
 Window Width = 1024
 
-[File 0022]
+[File 0017]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Gr"
-Path Line0003 = "aphDisp.uir"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/GraphD"
+Path Line0003 = "isp.uir"
 File Type = "User Interface Resource"
 Disk Date = 3616709285
 In Projects = "1,"
@@ -334,10 +271,10 @@ Window Left = 10
 Window Height = 419
 Window Width = 1072
 
-[File 0023]
+[File 0018]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/IT"
-Path Line0003 = "/i_t Configuration.uir"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/IT/i_t"
+Path Line0003 = " Configuration.uir"
 File Type = "User Interface Resource"
 Disk Date = 3616127331
 In Projects = "1,"
@@ -346,10 +283,10 @@ Window Left = 10
 Window Height = 515
 Window Width = 1072
 
-[File 0024]
+[File 0019]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/LS"
-Path Line0003 = "V/lsv Configuration.uir"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/LSV/ls"
+Path Line0003 = "v Configuration.uir"
 File Type = "User Interface Resource"
 Disk Date = 3616127870
 In Projects = "1,"
@@ -358,10 +295,22 @@ Window Left = 138
 Window Height = 539
 Window Width = 1072
 
-[File 0025]
+[File 0020]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/NP"
-Path Line0003 = "V/npv Configuration.uir"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/MainPa"
+Path Line0003 = "nel.uir"
+File Type = "User Interface Resource"
+Disk Date = 3618466532
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Window Height = 443
+Window Width = 1024
+
+[File 0021]
+Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/NPV/np"
+Path Line0003 = "v Configuration.uir"
 File Type = "User Interface Resource"
 Disk Date = 3616132061
 In Projects = "1,"
@@ -370,10 +319,10 @@ Window Left = 26
 Window Height = 347
 Window Width = 1072
 
-[File 0026]
+[File 0022]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/OC"
-Path Line0003 = "PT/ocpt Configuration.uir"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/OCPT/o"
+Path Line0003 = "cpt Configuration.uir"
 File Type = "User Interface Resource"
 Disk Date = 3616129736
 In Projects = "1,"
@@ -382,10 +331,22 @@ Window Left = 74
 Window Height = 515
 Window Width = 1072
 
-[File 0027]
+[File 0023]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Re"
-Path Line0003 = "sult Menu.uir"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/Projec"
+Path Line0003 = "tPanel.uir"
+File Type = "User Interface Resource"
+Disk Date = 3618460536
+In Projects = "1,"
+Window Top = 242
+Window Left = 122
+Window Height = 563
+Window Width = 1072
+
+[File 0024]
+Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/Result"
+Path Line0003 = " Menu.uir"
 File Type = "User Interface Resource"
 Disk Date = 3616211781
 In Projects = "1,"
@@ -394,10 +355,10 @@ Window Left = 90
 Window Height = 635
 Window Width = 1072
 
-[File 0028]
+[File 0025]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/SC"
-Path Line0003 = "V/scv Configuration.uir"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/SCV/sc"
+Path Line0003 = "v Configuration.uir"
 File Type = "User Interface Resource"
 Disk Date = 3616130952
 In Projects = "1,"
@@ -406,10 +367,10 @@ Window Left = 26
 Window Height = 635
 Window Width = 1072
 
-[File 0029]
+[File 0026]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Se"
-Path Line0003 = "ttings.uir"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/Settin"
+Path Line0003 = "gs.uir"
 File Type = "User Interface Resource"
 Disk Date = 3616658134
 In Projects = "1,"
@@ -418,10 +379,10 @@ Window Left = 26
 Window Height = 443
 Window Width = 1072
 
-[File 0030]
+[File 0027]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/SW"
-Path Line0003 = "V/swv Configuration.uir"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/SWV/sw"
+Path Line0003 = "v Configuration.uir"
 File Type = "User Interface Resource"
 Disk Date = 3616132590
 In Projects = "1,"
@@ -430,10 +391,10 @@ Window Left = 10
 Window Height = 635
 Window Width = 1072
 
-[File 0031]
+[File 0028]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Ta"
-Path Line0003 = "ble.uir"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/Table."
+Path Line0003 = "uir"
 File Type = "User Interface Resource"
 Disk Date = 3618372792
 In Projects = "1,"
@@ -442,10 +403,10 @@ Window Left = 74
 Window Height = 417
 Window Width = 1137
 
-[File 0032]
+[File 0029]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Us"
-Path Line0003 = "er Manage.uir"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/User M"
+Path Line0003 = "anage.uir"
 File Type = "User Interface Resource"
 Disk Date = 3616026063
 In Projects = "1,"
@@ -454,21 +415,10 @@ Window Left = 58
 Window Height = 563
 Window Width = 1072
 
-[File 0033]
+[File 0030]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/A"
-Path Line0003 = "bnormalDataCache.c"
-File Type = "CSource"
-Disk Date = 3618369458
-In Projects = "1,"
-Window Top = 32
-Window Left = 10
-Source Window State = "1,71,78,78,0,1,1,0,0,0,0,0,0,0,0,0,0,0,73,22,515,1072,1,0,"
-
-[File 0034]
-Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/a"
-Path Line0003 = "synctmr.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/async"
+Path Line0003 = "tmr.c"
 File Type = "CSource"
 Disk Date = 3615951166
 In Projects = "1,"
@@ -476,10 +426,10 @@ Window Top = 92
 Window Left = 42
 Source Window State = "1,519,519,519,4,13,4,0,0,0,0,0,0,0,0,0,122,0,134,0,371,1024,1,0,"
 
-[File 0035]
+[File 0031]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/C"
-Path Line0003 = "urve.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Curve"
+Path Line0003 = ".c"
 File Type = "CSource"
 Disk Date = 3618354512
 In Projects = "1,"
@@ -487,10 +437,10 @@ Window Top = 122
 Window Left = 58
 Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,19,467,1072,1,0,"
 
-[File 0036]
+[File 0032]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/E"
-Path Line0003 = "xpListPanel.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/ExpLi"
+Path Line0003 = "stPanel.c"
 File Type = "CSource"
 Disk Date = 3618353215
 In Projects = "1,"
@@ -498,10 +448,21 @@ Window Top = 212
 Window Left = 106
 Source Window State = "1,92,92,92,0,44,44,0,0,0,0,0,0,0,0,0,48,0,57,0,515,1072,1,0,"
 
-[File 0037]
+[File 0033]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/G"
-Path Line0003 = "raph.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/File."
+Path Line0003 = "c"
+File Type = "CSource"
+Disk Date = 3618182349
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,24,395,1072,1,0,"
+
+[File 0034]
+Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Graph"
+Path Line0003 = ".c"
 File Type = "CSource"
 Disk Date = 3618354513
 In Projects = "1,"
@@ -509,10 +470,21 @@ Window Top = 92
 Window Left = 42
 Source Window State = "1,48,48,48,4,16,16,0,3,0,0,0,0,0,0,0,35,0,48,4,467,1072,1,0,"
 
-[File 0038]
+[File 0035]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Re"
-Path Line0003 = "sult Menu.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Proje"
+Path Line0003 = "ctPanel.c"
+File Type = "CSource"
+Disk Date = 3618528611
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,119,119,119,44,45,45,0,0,0,0,0,0,0,0,0,78,0,123,29,443,1072,1,0,"
+
+[File 0036]
+Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/Result"
+Path Line0003 = " Menu.c"
 File Type = "CSource"
 Disk Date = 3616651650
 In Projects = "1,"
@@ -520,10 +492,10 @@ Window Top = 62
 Window Left = 26
 Source Window State = "1,177,178,178,22,22,22,0,0,0,0,0,0,0,0,0,30,0,15,22,563,1072,1,0,"
 
-[File 0039]
+[File 0037]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/S"
-Path Line0003 = "erialCommand.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Seria"
+Path Line0003 = "lCommand.c"
 File Type = "CSource"
 Disk Date = 3618353577
 In Projects = "1,"
@@ -531,21 +503,21 @@ Window Top = 32
 Window Left = 10
 Source Window State = "1,13,13,13,0,29,29,0,0,0,0,0,0,0,0,0,0,0,29,6,417,1098,1,0,"
 
-[File 0040]
+[File 0038]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/s"
-Path Line0003 = "ystem_ini.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Setti"
+Path Line0003 = "ngsPanel.c"
 File Type = "CSource"
-Disk Date = 3618370452
+Disk Date = 3618524128
 In Projects = "1,"
-Window Top = 32
-Window Left = 10
-Source Window State = "1,37,37,37,4,8,8,0,0,0,0,0,0,0,0,0,69,0,59,1,635,1072,1,0,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,16,16,16,48,55,55,0,3,0,0,0,0,0,0,0,9,0,16,48,443,1072,1,0,"
 
-[File 0041]
+[File 0039]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/T"
-Path Line0003 = "ablePanel.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Table"
+Path Line0003 = "Panel.c"
 File Type = "CSource"
 Disk Date = 3618390634
 In Projects = "1,"
@@ -553,10 +525,22 @@ Window Top = 32
 Window Left = 10
 Source Window State = "1,17,17,17,38,62,38,0,0,0,0,0,0,0,0,0,0,0,17,62,515,1072,1,0,"
 
-[File 0042]
+[File 0040]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/u"
-Path Line0003 = "serManage.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Timer"
+Path Line0003 = ".c"
+File Type = "CSource"
+Disk Date = 3618819139
+In Projects = "1,"
+Window Top = 122
+Window Left = 58
+Window Z-Order = 3
+Source Window State = "1,47,52,52,0,14,14,0,0,110,0,0,0,0,0,24,32,0,46,5,539,1072,1,0,"
+
+[File 0041]
+Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/userM"
+Path Line0003 = "anage.c"
 File Type = "CSource"
 Disk Date = 3616026060
 In Projects = "1,"
@@ -564,10 +548,10 @@ Window Top = 212
 Window Left = 106
 Source Window State = "1,36,39,39,0,1,1,0,0,0,0,0,0,0,0,0,35,0,70,12,635,1072,1,0,"
 
-[File 0043]
+[File 0042]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/IT/i_tP"
-Path Line0003 = "anel.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/IT/i_tPanel"
+Path Line0003 = ".c"
 File Type = "CSource"
 Disk Date = 3618353946
 In Projects = "1,"
@@ -575,21 +559,10 @@ Window Top = 92
 Window Left = 42
 Source Window State = "1,84,84,84,16,35,35,0,0,0,0,0,0,0,0,0,0,0,16,15,515,1072,1,0,"
 
-[File 0044]
+[File 0043]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/IT/i_tP"
-Path Line0003 = "rotocol.c"
-File Type = "CSource"
-Disk Date = 3618354751
-In Projects = "1,"
-Window Top = 152
-Window Left = 74
-Source Window State = "1,18,19,19,11,18,18,0,0,0,0,321,0,0,0,0,212,0,337,39,515,1072,1,53,"
-
-[File 0045]
-Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/CV/c_vP"
-Path Line0003 = "anel.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/CV/c_vPanel"
+Path Line0003 = ".c"
 File Type = "CSource"
 Disk Date = 3618353059
 In Projects = "1,"
@@ -597,10 +570,10 @@ Window Top = 92
 Window Left = 42
 Source Window State = "1,81,105,81,0,6,0,0,0,0,0,1,0,1,0,0,30,0,30,18,515,1072,1,0,"
 
-[File 0046]
+[File 0044]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/CV/c_vP"
-Path Line0003 = "rotocol.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/CV/c_vProto"
+Path Line0003 = "col.c"
 File Type = "CSource"
 Disk Date = 3618352224
 In Projects = "1,"
@@ -608,10 +581,10 @@ Window Top = 152
 Window Left = 74
 Source Window State = "1,173,173,173,12,26,26,0,0,0,0,0,0,0,0,0,165,0,173,20,371,1024,1,0,"
 
-[File 0047]
+[File 0045]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/LSV/lsv"
-Path Line0003 = "Panel.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/LSV/lsvPane"
+Path Line0003 = "l.c"
 File Type = "CSource"
 Disk Date = 3618356117
 In Projects = "1,"
@@ -619,10 +592,10 @@ Window Top = 92
 Window Left = 42
 Source Window State = "1,14,14,14,0,21,21,0,0,0,0,27,0,0,0,0,0,0,23,34,539,1072,1,17,"
 
-[File 0048]
+[File 0046]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/LSV/lsv"
-Path Line0003 = "Protocol.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/LSV/lsvProt"
+Path Line0003 = "ocol.c"
 File Type = "CSource"
 Disk Date = 3618352060
 In Projects = "1,"
@@ -630,10 +603,10 @@ Window Top = 92
 Window Left = 42
 Source Window State = "1,66,66,66,8,18,18,0,0,0,0,3,0,3,0,0,180,0,138,21,371,1024,1,0,"
 
-[File 0049]
+[File 0047]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/NPV/npv"
-Path Line0003 = "Panel.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/NPV/npvPane"
+Path Line0003 = "l.c"
 File Type = "CSource"
 Disk Date = 3618356117
 In Projects = "1,"
@@ -641,10 +614,10 @@ Window Top = 182
 Window Left = 90
 Source Window State = "1,13,13,13,0,23,23,0,0,0,0,0,0,0,0,0,2,0,12,16,443,1072,1,0,"
 
-[File 0050]
+[File 0048]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/NPV/npv"
-Path Line0003 = "Protocol.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/NPV/npvProt"
+Path Line0003 = "ocol.c"
 File Type = "CSource"
 Disk Date = 3618352060
 In Projects = "1,"
@@ -652,10 +625,10 @@ Window Top = 152
 Window Left = 74
 Source Window State = "1,20,20,20,6,14,14,0,0,0,0,0,0,0,0,0,18,0,20,6,347,1072,1,0,"
 
-[File 0051]
+[File 0049]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/SCV/scv"
-Path Line0003 = "Panel.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/SCV/scvPane"
+Path Line0003 = "l.c"
 File Type = "CSource"
 Disk Date = 3618356192
 In Projects = "1,"
@@ -663,10 +636,10 @@ Window Top = 122
 Window Left = 58
 Source Window State = "1,21,21,21,0,22,22,0,0,0,0,0,0,0,0,0,2,0,13,13,395,1072,1,0,"
 
-[File 0052]
+[File 0050]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/SCV/scv"
-Path Line0003 = "Protocol.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/SCV/scvProt"
+Path Line0003 = "ocol.c"
 File Type = "CSource"
 Disk Date = 3618352060
 In Projects = "1,"
@@ -674,10 +647,10 @@ Window Top = 122
 Window Left = 58
 Source Window State = "1,47,47,47,0,5,5,0,0,0,0,0,0,0,0,0,176,0,53,5,347,1072,1,0,"
 
-[File 0053]
+[File 0051]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/SWV/swv"
-Path Line0003 = "Panel.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/SWV/swvPane"
+Path Line0003 = "l.c"
 File Type = "CSource"
 Disk Date = 3618355882
 In Projects = "1,"
@@ -685,10 +658,10 @@ Window Top = 182
 Window Left = 90
 Source Window State = "1,67,112,67,0,4,0,0,0,0,0,0,0,0,0,0,0,0,13,16,395,1072,1,0,"
 
-[File 0054]
+[File 0052]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/SWV/swv"
-Path Line0003 = "Protocol.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/SWV/swvProt"
+Path Line0003 = "ocol.c"
 File Type = "CSource"
 Disk Date = 3616036254
 In Projects = "1,"
@@ -696,10 +669,10 @@ Window Top = 62
 Window Left = 26
 Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,395,1072,1,0,"
 
-[File 0055]
+[File 0053]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/CP/cpPa"
-Path Line0003 = "nel.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/CP/cpPanel."
+Path Line0003 = "c"
 File Type = "CSource"
 Disk Date = 3616129524
 In Projects = "1,"
@@ -707,10 +680,10 @@ Window Top = 92
 Window Left = 42
 Source Window State = "1,37,37,37,0,38,38,0,0,0,0,0,0,0,0,0,32,0,36,41,347,1072,1,0,"
 
-[File 0056]
+[File 0054]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/OCPT/oc"
-Path Line0003 = "ptPanel.c"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/OCPT/ocptPa"
+Path Line0003 = "nel.c"
 File Type = "CSource"
 Disk Date = 3616130101
 In Projects = "1,"
@@ -718,21 +691,10 @@ Window Top = 212
 Window Left = 106
 Source Window State = "1,57,57,57,29,41,41,0,0,0,0,0,0,0,0,0,23,0,56,47,563,1072,1,0,"
 
-[File 0057]
+[File 0055]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/A"
-Path Line0003 = "bnormalDataCache.h"
-File Type = "Include"
-Disk Date = 3618299195
-In Projects = "1,"
-Window Top = 62
-Window Left = 26
-Source Window State = "1,47,47,47,0,18,18,0,0,0,0,0,0,0,0,0,32,0,47,18,635,1072,1,0,"
-
-[File 0058]
-Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/a"
-Path Line0003 = "synctmr.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/async"
+Path Line0003 = "tmr.h"
 File Type = "Include"
 Disk Date = 3614638880
 In Projects = "1,"
@@ -740,10 +702,10 @@ Window Top = 92
 Window Left = 42
 Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,515,1072,1,0,"
 
-[File 0059]
+[File 0056]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/C"
-Path Line0003 = "urve.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Curve"
+Path Line0003 = ".h"
 File Type = "Include"
 Disk Date = 3618354513
 In Projects = "1,"
@@ -751,10 +713,10 @@ Window Top = 32
 Window Left = 10
 Source Window State = "1,10,10,10,11,13,13,0,0,0,0,0,0,0,0,0,45,0,11,10,467,1072,1,0,"
 
-[File 0060]
+[File 0057]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/E"
-Path Line0003 = "xpListPanel.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/ExpLi"
+Path Line0003 = "stPanel.h"
 File Type = "Include"
 Disk Date = 3616650812
 In Projects = "1,"
@@ -762,10 +724,21 @@ Window Top = 182
 Window Left = 90
 Source Window State = "1,48,48,48,0,26,26,0,0,0,0,27,0,0,0,0,20,0,40,29,515,1072,1,0,"
 
-[File 0061]
+[File 0058]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/G"
-Path Line0003 = "raph.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/File."
+Path Line0003 = "h"
+File Type = "Include"
+Disk Date = 3618182349
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,395,1072,1,0,"
+
+[File 0059]
+Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Graph"
+Path Line0003 = ".h"
 File Type = "Include"
 Disk Date = 3618354513
 In Projects = "1,"
@@ -773,10 +746,10 @@ Window Top = 62
 Window Left = 26
 Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,14,467,1072,1,0,"
 
-[File 0062]
+[File 0060]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/SerialC"
-Path Line0003 = "ommand.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/SerialComma"
+Path Line0003 = "nd.h"
 File Type = "Include"
 Disk Date = 0
 In Projects = "1,"
@@ -784,21 +757,21 @@ Window Top = 62
 Window Left = 26
 Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,515,1072,1,0,"
 
-[File 0063]
+[File 0061]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/s"
-Path Line0003 = "ystem_ini.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Setti"
+Path Line0003 = "ngsPanel.h"
 File Type = "Include"
-Disk Date = 3618370471
+Disk Date = 3618464141
 In Projects = "1,"
 Window Top = 32
 Window Left = 10
-Source Window State = "1,33,34,34,0,24,24,0,0,0,0,0,0,0,0,0,18,0,35,30,395,1072,1,0,"
+Source Window State = "1,21,21,21,12,27,27,0,3,0,0,0,0,0,0,0,6,0,21,12,419,1072,1,0,"
 
-[File 0064]
+[File 0062]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/T"
-Path Line0003 = "ablePanel.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Table"
+Path Line0003 = "Panel.h"
 File Type = "Include"
 Disk Date = 3618385393
 In Projects = "1,"
@@ -806,10 +779,10 @@ Window Top = 122
 Window Left = 58
 Source Window State = "1,33,33,33,4,18,18,0,3,0,0,0,0,0,0,0,25,0,33,4,443,1072,1,0,"
 
-[File 0065]
+[File 0063]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/T"
-Path Line0003 = "imer.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Timer"
+Path Line0003 = ".h"
 File Type = "Include"
 Disk Date = 3618371386
 In Projects = "1,"
@@ -817,10 +790,10 @@ Window Top = 152
 Window Left = 74
 Source Window State = "1,39,39,39,0,127,0,0,0,0,0,0,0,0,0,0,22,0,38,20,539,1072,1,0,"
 
-[File 0066]
+[File 0064]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/u"
-Path Line0003 = "serManage.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/userM"
+Path Line0003 = "anage.h"
 File Type = "Include"
 Disk Date = 3616025730
 In Projects = "1,"
@@ -828,10 +801,10 @@ Window Top = 242
 Window Left = 122
 Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,635,1072,1,0,"
 
-[File 0067]
+[File 0065]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/En"
-Path Line0003 = "vironment.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/Enviro"
+Path Line0003 = "nment.h"
 File Type = "Include"
 Disk Date = 3614638880
 In Projects = "1,"
@@ -839,10 +812,10 @@ Window Top = 32
 Window Left = 10
 Source Window State = "1,15,15,15,9,19,19,0,3,0,0,0,0,0,0,0,0,0,15,9,515,1072,1,0,"
 
-[File 0068]
+[File 0066]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Ex"
-Path Line0003 = "periment List.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/Experi"
+Path Line0003 = "ment List.h"
 File Type = "Include"
 Disk Date = 3614812464
 In Projects = "1,"
@@ -850,10 +823,10 @@ Window Top = 62
 Window Left = 26
 Source Window State = "1,16,16,16,9,27,27,0,3,0,0,0,0,0,0,0,0,0,16,9,515,1072,1,0,"
 
-[File 0069]
+[File 0067]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Gr"
-Path Line0003 = "aphDisp.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/GraphD"
+Path Line0003 = "isp.h"
 File Type = "Include"
 Disk Date = 3616659229
 In Projects = "1,"
@@ -861,10 +834,32 @@ Window Top = 182
 Window Left = 90
 Source Window State = "1,17,17,17,9,25,25,0,3,0,0,0,0,0,0,0,0,0,17,9,515,1072,1,0,"
 
+[File 0068]
+Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/MainPa"
+Path Line0003 = "nel.h"
+File Type = "Include"
+Disk Date = 3618456230
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Source Window State = "1,36,36,36,9,27,27,0,0,0,0,0,0,0,0,0,0,0,7,13,515,1072,1,0,"
+
+[File 0069]
+Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/Projec"
+Path Line0003 = "tPanel.h"
+File Type = "Include"
+Disk Date = 3618460536
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Source Window State = "1,15,15,15,9,17,17,0,3,0,0,0,0,0,0,0,12,0,15,9,443,1072,1,0,"
+
 [File 0070]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Re"
-Path Line0003 = "sult Menu.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/Result"
+Path Line0003 = " Menu.h"
 File Type = "Include"
 Disk Date = 3616143043
 In Projects = "1,"
@@ -874,8 +869,8 @@ Source Window State = "1,57,57,57,17,36,36,0,3,0,0,15,0,0,0,0,49,7,57,17,443,107
 
 [File 0071]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Sa"
-Path Line0003 = "mple Configuration.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/Sample"
+Path Line0003 = " Configuration.h"
 File Type = "Include"
 Disk Date = 0
 In Projects = "1,"
@@ -885,8 +880,8 @@ Source Window State = "1,15,15,15,9,19,19,0,3,0,0,0,0,0,0,0,0,0,15,9,515,1072,1,
 
 [File 0072]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Se"
-Path Line0003 = "ttings.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/Settin"
+Path Line0003 = "gs.h"
 File Type = "Include"
 Disk Date = 3616658134
 In Projects = "1,"
@@ -894,8 +889,8 @@ Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
 [File 0073]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Ta"
-Path Line0003 = "ble.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/Table."
+Path Line0003 = "h"
 File Type = "Include"
 Disk Date = 3616206195
 In Projects = "1,"
@@ -905,8 +900,8 @@ Source Window State = "1,15,15,15,9,14,14,0,3,0,0,0,0,0,0,0,0,0,15,9,515,1072,1,
 
 [File 0074]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Us"
-Path Line0003 = "er Manage.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/User M"
+Path Line0003 = "anage.h"
 File Type = "Include"
 Disk Date = 3616026064
 In Projects = "1,"
@@ -916,8 +911,8 @@ Source Window State = "1,15,15,15,9,18,18,0,3,0,0,0,0,0,0,0,0,0,15,9,515,1072,1,
 
 [File 0075]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/IT"
-Path Line0003 = "/i_t Configuration.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/IT/i_t"
+Path Line0003 = " Configuration.h"
 File Type = "Include"
 Disk Date = 3616127331
 In Projects = "1,"
@@ -927,8 +922,8 @@ Source Window State = "1,21,21,21,9,31,31,0,0,0,0,0,0,0,0,0,0,0,19,14,515,1072,1
 
 [File 0076]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/IT/i_tP"
-Path Line0003 = "anel.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/IT/i_tPanel"
+Path Line0003 = ".h"
 File Type = "Include"
 Disk Date = 3618353946
 In Projects = "1,"
@@ -938,8 +933,8 @@ Source Window State = "1,10,10,10,11,13,13,0,0,0,0,0,0,0,0,0,0,0,10,27,539,1072,
 
 [File 0077]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/IT/i_tP"
-Path Line0003 = "rotocol.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/IT/i_tProto"
+Path Line0003 = "col.h"
 File Type = "Include"
 Disk Date = 3618351701
 In Projects = "1,"
@@ -949,8 +944,8 @@ Source Window State = "1,50,50,50,13,24,24,0,3,0,0,0,0,0,0,0,40,0,50,13,515,1072
 
 [File 0078]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/CV"
-Path Line0003 = "/c_v Configuration.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/CV/c_v"
+Path Line0003 = " Configuration.h"
 File Type = "Include"
 Disk Date = 3616126252
 In Projects = "1,"
@@ -960,8 +955,8 @@ Source Window State = "1,20,20,20,9,30,30,0,3,0,0,0,0,0,0,0,13,0,20,9,515,1072,1
 
 [File 0079]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/CV/c_vP"
-Path Line0003 = "anel.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/CV/c_vPanel"
+Path Line0003 = ".h"
 File Type = "Include"
 Disk Date = 3618353042
 In Projects = "1,"
@@ -971,8 +966,8 @@ Source Window State = "1,48,49,49,0,44,44,0,0,0,0,22,0,0,0,0,0,0,47,39,515,1072,
 
 [File 0080]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/CV/c_vP"
-Path Line0003 = "rotocol.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/CV/c_vProto"
+Path Line0003 = "col.h"
 File Type = "Include"
 Disk Date = 3618352196
 In Projects = "1,"
@@ -982,8 +977,8 @@ Source Window State = "1,41,41,41,80,83,83,0,0,0,0,0,0,0,0,0,28,0,42,0,371,1024,
 
 [File 0081]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/LS"
-Path Line0003 = "V/lsv Configuration.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/LSV/ls"
+Path Line0003 = "v Configuration.h"
 File Type = "Include"
 Disk Date = 3616127870
 In Projects = "1,"
@@ -993,8 +988,8 @@ Source Window State = "1,19,19,19,9,31,31,0,3,0,0,0,0,0,0,0,6,0,19,9,371,1024,1,
 
 [File 0082]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/LSV/lsv"
-Path Line0003 = "Panel.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/LSV/lsvPane"
+Path Line0003 = "l.h"
 File Type = "Include"
 Disk Date = 3616127992
 In Projects = "1,"
@@ -1004,8 +999,8 @@ Source Window State = "1,40,40,40,11,13,13,0,0,0,0,0,0,0,0,0,22,0,41,24,539,1072
 
 [File 0083]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/LSV/lsv"
-Path Line0003 = "Protocol.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/LSV/lsvProt"
+Path Line0003 = "ocol.h"
 File Type = "Include"
 Disk Date = 3615958089
 In Projects = "1,"
@@ -1015,8 +1010,8 @@ Source Window State = "1,35,35,35,17,21,21,0,0,0,0,0,0,0,0,0,0,0,35,60,371,1024,
 
 [File 0084]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/CP"
-Path Line0003 = "/cp Configuration.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/CP/cp "
+Path Line0003 = "Configuration.h"
 File Type = "Include"
 Disk Date = 3616129245
 In Projects = "1,"
@@ -1024,8 +1019,8 @@ Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
 [File 0085]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/CP/cpPa"
-Path Line0003 = "nel.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/CP/cpPanel."
+Path Line0003 = "h"
 File Type = "Include"
 Disk Date = 3616129524
 In Projects = "1,"
@@ -1035,8 +1030,8 @@ Source Window State = "1,35,35,35,0,42,42,0,0,0,0,0,0,0,0,0,23,0,34,0,347,1072,1
 
 [File 0086]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/OC"
-Path Line0003 = "PT/ocpt Configuration.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/OCPT/o"
+Path Line0003 = "cpt Configuration.h"
 File Type = "Include"
 Disk Date = 3616129736
 In Projects = "1,"
@@ -1044,8 +1039,8 @@ Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
 [File 0087]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/OCPT/oc"
-Path Line0003 = "ptPanel.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/OCPT/ocptPa"
+Path Line0003 = "nel.h"
 File Type = "Include"
 Disk Date = 3616130095
 In Projects = "1,"
@@ -1055,8 +1050,8 @@ Source Window State = "1,30,31,31,0,28,28,0,0,0,0,0,0,0,0,0,8,0,31,28,563,1072,1
 
 [File 0088]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/SC"
-Path Line0003 = "V/scv Configuration.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/SCV/sc"
+Path Line0003 = "v Configuration.h"
 File Type = "Include"
 Disk Date = 3616130492
 In Projects = "1,"
@@ -1066,8 +1061,8 @@ Source Window State = "1,15,15,15,9,16,16,0,3,0,0,0,0,0,0,0,0,0,15,9,347,1072,1,
 
 [File 0089]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/SCV/scv"
-Path Line0003 = "Panel.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/SCV/scvPane"
+Path Line0003 = "l.h"
 File Type = "Include"
 Disk Date = 3618356192
 In Projects = "1,"
@@ -1077,8 +1072,8 @@ Source Window State = "1,39,40,40,0,28,28,0,0,0,0,0,0,0,0,0,0,0,36,24,395,1072,1
 
 [File 0090]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/SCV/scv"
-Path Line0003 = "Protocol.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/SCV/scvProt"
+Path Line0003 = "ocol.h"
 File Type = "Include"
 Disk Date = 3615449063
 In Projects = "1,"
@@ -1086,8 +1081,8 @@ Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
 [File 0091]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/NP"
-Path Line0003 = "V/npv Configuration.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/NPV/np"
+Path Line0003 = "v Configuration.h"
 File Type = "Include"
 Disk Date = 3616132061
 In Projects = "1,"
@@ -1097,8 +1092,8 @@ Source Window State = "1,15,15,15,9,16,16,0,3,0,0,0,0,0,0,0,0,0,15,9,347,1072,1,
 
 [File 0092]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/NPV/npv"
-Path Line0003 = "Panel.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/NPV/npvPane"
+Path Line0003 = "l.h"
 File Type = "Include"
 Disk Date = 3618356117
 In Projects = "1,"
@@ -1108,8 +1103,8 @@ Source Window State = "1,48,48,48,0,36,36,0,0,0,0,0,0,0,0,0,0,0,19,0,443,1072,1,
 
 [File 0093]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/NPV/npv"
-Path Line0003 = "Protocol.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/NPV/npvProt"
+Path Line0003 = "ocol.h"
 File Type = "Include"
 Disk Date = 3615603909
 In Projects = "1,"
@@ -1117,8 +1112,8 @@ Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
 [File 0094]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/SW"
-Path Line0003 = "V/swv Configuration.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/UI Files/SWV/sw"
+Path Line0003 = "v Configuration.h"
 File Type = "Include"
 Disk Date = 3616132591
 In Projects = "1,"
@@ -1128,8 +1123,8 @@ Source Window State = "1,27,27,27,9,29,29,0,3,0,0,0,0,0,0,0,6,0,27,9,395,1072,1,
 
 [File 0095]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/SWV/swv"
-Path Line0003 = "Panel.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/SWV/swvPane"
+Path Line0003 = "l.h"
 File Type = "Include"
 Disk Date = 3618355882
 In Projects = "1,"
@@ -1139,8 +1134,8 @@ Source Window State = "1,47,47,47,0,37,37,0,0,0,0,0,0,0,0,0,0,0,46,32,395,1072,1
 
 [File 0096]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/SWV/swv"
-Path Line0003 = "Protocol.h"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/SWV/swvProt"
+Path Line0003 = "ocol.h"
 File Type = "Include"
 Disk Date = 3616036192
 In Projects = "1,"
@@ -1150,266 +1145,249 @@ Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,395,1072,1,0,"
 
 [File 0097]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/An"
-Path Line0003 = "alyze(a).png"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/Analyz"
+Path Line0003 = "e(a).png"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0098]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/An"
-Path Line0003 = "alyze(b).ico"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/Analyz"
+Path Line0003 = "e(b).ico"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0099]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/an"
-Path Line0003 = "alyze.ico"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/analyz"
+Path Line0003 = "e.ico"
 File Type = "Unknown"
 Disk Date = 3616205123
 In Projects = "1,"
 
 [File 0100]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/Ar"
-Path Line0003 = "row.png"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/Arrow."
+Path Line0003 = "png"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0101]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/Co"
-Path Line0003 = "nfig.ico"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/Config"
+Path Line0003 = ".ico"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0102]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/Co"
-Path Line0003 = "nfigure(a).png"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/Config"
+Path Line0003 = "ure(a).png"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0103]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/Co"
-Path Line0003 = "nfigure(b).ico"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/Config"
+Path Line0003 = "ure(b).ico"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0104]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/FE"
-Path Line0003 = "T.ico"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/FET.ic"
+Path Line0003 = "o"
 File Type = "Unknown"
 Disk Date = 3616205123
 In Projects = "1,"
 
 [File 0105]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/GN"
-Path Line0003 = "D.ico"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/GND.ic"
+Path Line0003 = "o"
 File Type = "Unknown"
 Disk Date = 3616205123
 In Projects = "1,"
 
 [File 0106]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/I."
-Path Line0003 = "ico"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/I.ico"
 File Type = "Unknown"
 Disk Date = 3616205123
 In Projects = "1,"
 
 [File 0107]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/I_"
-Path Line0003 = "Bias.ico"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/I_Bias"
+Path Line0003 = ".ico"
 File Type = "Unknown"
 Disk Date = 3616205123
 In Projects = "1,"
 
 [File 0108]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/ji"
-Path Line0003 = "antou.ico"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/jianto"
+Path Line0003 = "u.ico"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0109]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/My"
-Path Line0003 = " Projects.png"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/My Pro"
+Path Line0003 = "jects.png"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0110]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/My"
-Path Line0003 = " Settings.png"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/My Set"
+Path Line0003 = "tings.png"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0111]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/Ru"
-Path Line0003 = "n.png"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/Run.pn"
+Path Line0003 = "g"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0112]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/Sa"
-Path Line0003 = "ve(a).png"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/Save(a"
+Path Line0003 = ").png"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0113]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/Sa"
-Path Line0003 = "ve(b).png"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/Save(b"
+Path Line0003 = ").png"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0114]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/Sa"
-Path Line0003 = "ve_Path(a).png"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/Save_P"
+Path Line0003 = "ath(a).png"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0115]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/Sa"
-Path Line0003 = "ve_Path(b).png"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/Save_P"
+Path Line0003 = "ath(b).png"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0116]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/Se"
-Path Line0003 = "lect(a).png"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/Select"
+Path Line0003 = "(a).png"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0117]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/Se"
-Path Line0003 = "lect(b).ico"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/Select"
+Path Line0003 = "(b).ico"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0118]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/St"
-Path Line0003 = "op.png"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/Stop.p"
+Path Line0003 = "ng"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0119]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/To"
-Path Line0003 = "ols.png"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/Tools."
+Path Line0003 = "png"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0120]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/Us"
-Path Line0003 = "er(a).png"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/User(a"
+Path Line0003 = ").png"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0121]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/Us"
-Path Line0003 = "er(b).png"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/User(b"
+Path Line0003 = ").png"
 File Type = "Unknown"
 Disk Date = 0
 In Projects = "1,"
 
 [File 0122]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/V."
-Path Line0003 = "ico"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/V.ico"
 File Type = "Unknown"
 Disk Date = 3616205123
 In Projects = "1,"
 
 [File 0123]
 Path Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Resource/V_"
-Path Line0003 = "Bias.ico"
+Path Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Resource/V_Bias"
+Path Line0003 = ".ico"
 File Type = "Unknown"
 Disk Date = 3616205123
 In Projects = "1,"
 
 [Tab Order]
 Tab 0001 Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Tab 0001 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/M"
-Tab 0001 Line0003 = "ainPanelCb.c"
+Tab 0001 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Abnor"
+Tab 0001 Line0003 = "malDataCache.c"
 Tab 0002 Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Tab 0002 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/L"
-Tab 0002 Line0003 = "oad_Panel.c"
+Tab 0002 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Abnor"
+Tab 0002 Line0003 = "malDataCache.h"
 Tab 0003 Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Tab 0003 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Ma"
-Tab 0003 Line0003 = "inPanel.h"
+Tab 0003 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/syste"
+Tab 0003 Line0003 = "m_ini.c"
 Tab 0004 Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Tab 0004 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/M"
-Tab 0004 Line0003 = "ainPanelCb.h"
+Tab 0004 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Load_"
+Tab 0004 Line0003 = "Panel.h"
 Tab 0005 Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Tab 0005 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/L"
-Tab 0005 Line0003 = "oad_Panel.h"
+Tab 0005 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/main."
+Tab 0005 Line0003 = "c"
 Tab 0006 Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Tab 0006 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/F"
-Tab 0006 Line0003 = "ile.h"
+Tab 0006 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/MainP"
+Tab 0006 Line0003 = "anelCb.c"
 Tab 0007 Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Tab 0007 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/F"
-Tab 0007 Line0003 = "ile.c"
+Tab 0007 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/MainP"
+Tab 0007 Line0003 = "anelCb.h"
 Tab 0008 Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Tab 0008 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/T"
-Tab 0008 Line0003 = "imer.c"
+Tab 0008 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/IT/i_tProto"
+Tab 0008 Line0003 = "col.c"
 Tab 0009 Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Tab 0009 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/S"
-Tab 0009 Line0003 = "ettingsPanel.c"
+Tab 0009 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/syste"
+Tab 0009 Line0003 = "m_ini.h"
 Tab 0010 Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Tab 0010 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/S"
-Tab 0010 Line0003 = "ettingsPanel.h"
-Tab 0011 Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Tab 0011 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Ma"
-Tab 0011 Line0003 = "inPanel.uir"
-Tab 0012 Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Tab 0012 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/P"
-Tab 0012 Line0003 = "rojectPanel.c"
-Tab 0013 Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Tab 0013 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/Src/Panel/m"
-Tab 0013 Line0003 = "ain.c"
-Tab 0014 Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Tab 0014 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Pr"
-Tab 0014 Line0003 = "ojectPanel.h"
-Tab 0015 Line0001 = "/e/ECS/ECS Project/ElectrochemicalAnalysisSystem/SA5102 Software 日期是0829 继08"
-Tab 0015 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，准备添加project功能/UI Files/Pr"
-Tab 0015 Line0003 = "ojectPanel.uir"
+Tab 0010 Line0002 = "11之后的修订版，添加了异常关闭时缓存数据的功能 ，添加project功能/Src/Panel/Timer"
+Tab 0010 Line0003 = ".c"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True

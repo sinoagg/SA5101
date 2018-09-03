@@ -1,0 +1,8 @@
+[CpAdvancSetCallback]
+Class="Function"
+Prototype="int CpAdvancSetCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CpBasicSetCallback]
+Class="Function"
+Prototype="int CpBasicSetCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

@@ -14,15 +14,9 @@
 #ifdef __cplusplus
     extern "C" {
 #endif
-
-#ifndef INCLUDE_AFTER_WINDOWS_H
-
-#include "AbnormalDataCache.h"
-
-#define INCLUDE_AFTER_WINDOWS_H
-#endif		
 //==============================================================================
 // Include files
+#include "AbnormalDataCache.h" 
 #include <utility.h> 
 #include <ansi_c.h>
 #include <cvirte.h>		
