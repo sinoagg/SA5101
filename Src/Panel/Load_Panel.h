@@ -89,9 +89,7 @@ int swvAdvancePanel;
 
 //==============================================================================
 // Global functions
-
 int LoadInitPanel (void);
-
 #ifdef __cplusplus
     }
 #endif

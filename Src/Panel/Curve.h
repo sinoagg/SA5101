@@ -30,6 +30,7 @@
 	int pointStyle;			//点样式
 	int plotStyle;			//画图样式
 	int lineStyle;			//曲线样式
+	int lineColor;          //曲线颜色
 }CurveAttrTypeDef;		
 
  typedef struct
@@ -62,7 +63,7 @@ typedef struct
 // Global functions
 
 int Declare_Your_Functions_Here (int x);
-int curveInit(Curve_TypeDef* pCurve,int curveIndex,int numOfTotalDots,Curve_TypeDef* pCurveAttr);
+int curveInit(Curve_TypeDef* pCurve,int curveIndex,int numOfTotalDots,CurveAttrTypeDef* pCurveAttr);
 int curveDeinit(Curve_TypeDef* pCurve);
 #ifdef __cplusplus
     }

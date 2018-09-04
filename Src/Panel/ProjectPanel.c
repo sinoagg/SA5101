@@ -24,7 +24,7 @@ static void DiscardAllPrjPanel(PrjHandleTypeDef *pSingleProject)
 	}	 
 }
 
-static int RecallAllPanelState(char* pConfigSavePath)
+ int RecallAllPanelState(char* pConfigSavePath)
 {
 	RecallPanelState(settingsGraphPanel, pConfigSavePath, 0);
 	RecallPanelState(environmentPanel, pConfigSavePath, 1);						

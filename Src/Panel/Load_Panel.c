@@ -68,7 +68,7 @@ int LoadInitPanel (void)
 	if ((settingsPrjPanel = LoadPanel (settingsPanel, "Ui Files/Settings.uir", ENVT)) < 0)		//用于弹出Project Settings面板
 		return -1;
 	
-	if ((settingsGraphPanel = LoadPanel (settingsPanel, "Ui Files/Settings.uir", GRAPH)) < 0)		//用于弹出Settings->Graph面板  
+	if ((settingsGraphPanel = LoadPanel (settingsPanel, "Ui Files/Settings.uir", SETGRAPH)) < 0)		//用于弹出Settings->Graph面板  
 		return -1;  
 	
 	if ((settingsAboutPanel = LoadPanel (settingsPanel, "Ui Files/Settings.uir", ABOUT)) < 0)		//用于弹出Settings->About面板
@@ -164,6 +164,8 @@ int LoadInitPanel (void)
 	SetPanelPos(environmentPanel, 605, 1592);
 	SetPanelSize(environmentPanel, 421, 308);
 	DisplayPanel(environmentPanel);
+	
+	/*RecallAllPanelState(); //每次打开软件都显示最后一次关机的参数配置*/
 	
 	int temp = CheckSystemClose();
 	if(temp == 1)

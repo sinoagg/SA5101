@@ -74,7 +74,8 @@ int CVICALLBACK MAIN_PANEL_CallBack (int panel, int event, void *callbackData,
 
 			break;
 		case EVENT_CLOSE:
-			    ShutDownExcelCB(); 
+			    ShutDownExcelCB();
+				/*SaveAllPanelState(configSavePath);*/
 			   	QuitUserInterface(0); 
 			break;
 	}
@@ -301,7 +302,7 @@ int CVICALLBACK SettingsCallback (int panel, int control, int event, void *callb
 		case EVENT_LEFT_CLICK_UP:
 			InstallPopup (settingsPanel);    //弹出hSettingsPanel 
 			SetPanelPos(settingsPanel, 5, 170);
-			SetPanelSize(settingsPanel, 350, 650);
+		//	SetPanelSize(settingsPanel, 350, 650);
 			DisplayPanel(settingsPanel);
 			break;
 	}
@@ -351,7 +352,7 @@ static int SaveAllPanelState(char* pConfigSavePath)
 	SavePanelState(npvAdvancePanel, pConfigSavePath, 17);
 	return 0;
 }
-//===================================================
+//=================================================== 
 //LoadAndDispPrj
 static int LoadAndDispPrj(FileLableTypeDef *pFileLable, char index)						//index为prj所在位置排序
 {
