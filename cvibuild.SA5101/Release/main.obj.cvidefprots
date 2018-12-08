@@ -1,0 +1,12 @@
+[MeasureComCallback]
+Class="Function"
+Prototype="void MeasureComCallback(int portNumber, int eventMask, void *callbackData);"
+
+[CheckPortStatus]
+Class="Function"
+Prototype="int CheckPortStatus(unsigned char portNumber, unsigned char uartRxLen, void (*pFun)(int, int, void *));"
+
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+

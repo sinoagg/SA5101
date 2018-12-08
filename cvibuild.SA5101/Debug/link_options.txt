@@ -1,0 +1,69 @@
+-nologo
+-out:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\SA5101.exe
+-arch:x86
+-timestamp
+-debug:2
+-res:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\resources.res
+-entry:_CVIWinMainStartupCodeForDebugging@0
+-base:0x400000
+-linked:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\linkersummary.txt
+-dlldeps:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\dlldependencies.txt
+-licensing:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\linkerlicensing.txt
+-browsedeps:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\moduledependencies.txt
+-stackreserve:1048576
+-stackcommit:4096
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\AbnormalDataCache.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\asynctmr.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\Curve.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\cvixml.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\CvPanel.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\DnpvPanel.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\DpvPanel.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\excel2000.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\excelreport.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\ExpListPanel.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\File.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\Graph.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\ImpPanel.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\inifile.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\ItPanel.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\LoadPanel.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\LsvPanel.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\main.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\MainPanelCb.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\msxmldom.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\NpvPanel.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\Plot.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\progressbar.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\ProjectPanel.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\Protocol.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\ResultMenuPanel.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\SampleCfgPanel.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\SerialCommand.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\SettingsPanel.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\SvPanel.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\SwvPanel.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\system_ini.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\TablePanel.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\TafelPanel.obj
+-in:e:\Projects\Project_SA5101_V1.8\cvibuild.SA5101\Debug\Timer.obj
+-more:d:\program files (x86)\national instruments\cvi2017\bin\msvc\cvistart.lib
+-more:d:\program files (x86)\national instruments\cvi2017\bin\msvc\cvi.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\advapi32.lib
+-more:c:\ProgramData\National Instruments\CVI2017\bin\msvc\analysis.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\cviauto.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\cvidotnet.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\cvinetstreams.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\cvinetv.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\cvintwrk.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\cvitdms.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\gdi32.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\gpib.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\kernel32.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\nivxi.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\bin\msvc\omp.lib
+-more:d:\Program Files (x86)\National Instruments\CVI2017\toolslib\toolbox\msvc\toolbox.obj
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\user32.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\uuid.lib
+-more:d:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\visa.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\winmm.lib

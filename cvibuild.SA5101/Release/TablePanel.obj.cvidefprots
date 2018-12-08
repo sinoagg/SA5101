@@ -1,0 +1,4 @@
+[Table]
+Class="Function"
+Prototype="void Table(char (*table_title)[20], int column, int columnWidth, int row);"
+

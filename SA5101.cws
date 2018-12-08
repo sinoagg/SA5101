@@ -1,0 +1,1314 @@
+[Workspace Header]
+Version = 1700
+Pathname = "/e/Projects/Project_SA5101_V1.8/SA5101.cws"
+CVI Dir = "/d/program files (x86)/national instruments/cvi2017"
+CVI Shared Dir = "/D/Program Files (x86)/National Instruments/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2017"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "SA5101.prj"
+Project 0001 Folder User Interface Files Collapsed = True
+Project 0001 FolderId 0 Collapsed = True
+Project 0001 Folder Source Files Collapsed = True
+Project 0001 FolderId 1 Collapsed = True
+Project 0001 Folder Include Files Collapsed = True
+Project 0001 FolderId 2 Collapsed = True
+Project 0001 Folder Resource Collapsed = True
+Project 0001 FolderId 3 Collapsed = True
+Drag Bar Left = 320
+Window Top = 170
+Window Left = 2113
+Window Bottom = 814
+Window Right = 2909
+Maximized = True
+Maximized Children = True
+Max32 Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win At Start = True
+Bring Up Err Win For Errors = False
+Save Changes Before Running = "Always"
+Save Changes Before Compiling = "Always"
+Hide Windows = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 4
+Window Confinement Region Enabled = True
+MainColumnWidth = 303
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+
+[Project Header 0001]
+Version = 1700
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Release"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/main.c"
+File Type = "CSource"
+Disk Date = 3626908407
+In Projects = "1,"
+Window Top = 152
+Window Left = 74
+Window Z-Order = 1
+Source Window State = "1,185,186,186,0,55,55,0,0,168,0,0,0,0,0,29,0,0,187,37,326,809,1,0,"
+
+[File 0002]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/MainPanelCb.c"
+File Type = "CSource"
+Disk Date = 3626908544
+In Projects = "1,"
+Window Top = 182
+Window Left = 90
+Window Z-Order = 2
+Source Window State = "1,201,202,202,0,40,40,0,0,80,0,0,0,0,0,21,414,0,215,27,473,809,1,0,"
+
+[File 0003]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/C-V.uir"
+File Type = "User Interface Resource"
+Disk Date = 3626844379
+In Projects = "1,"
+Window Top = 212
+Window Left = 106
+Window Height = 452
+Window Width = 809
+
+[File 0004]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/DNPV.uir"
+File Type = "User Interface Resource"
+Disk Date = 3626838646
+In Projects = "1,"
+Window Top = 182
+Window Left = 90
+Window Height = 452
+Window Width = 809
+
+[File 0005]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/DPV.uir"
+File Type = "User Interface Resource"
+Disk Date = 3626840322
+In Projects = "1,"
+Window Top = 152
+Window Left = 74
+Window Height = 452
+Window Width = 809
+
+[File 0006]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/Environment.uir"
+File Type = "User Interface Resource"
+Disk Date = 3626845093
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Window Height = 389
+Window Width = 809
+
+[File 0007]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/Experiment List.uir"
+File Type = "User Interface Resource"
+Disk Date = 3626846060
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Window Height = 389
+Window Width = 809
+
+[File 0008]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/GraphDisp.uir"
+File Type = "User Interface Resource"
+Disk Date = 3626846347
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Window Height = 494
+Window Width = 809
+
+[File 0009]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/I-T.uir"
+File Type = "User Interface Resource"
+Disk Date = 3626840482
+In Projects = "1,"
+Window Top = 122
+Window Left = 58
+Window Height = 452
+Window Width = 809
+
+[File 0010]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/IMP.uir"
+File Type = "User Interface Resource"
+Disk Date = 3626844218
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Window Height = 305
+Window Width = 809
+
+[File 0011]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/LSV.uir"
+File Type = "User Interface Resource"
+Disk Date = 3626840995
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Window Height = 452
+Window Width = 809
+
+[File 0012]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/MainPanel.uir"
+File Type = "User Interface Resource"
+Disk Date = 3626242298
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Window Height = 452
+Window Width = 809
+
+[File 0013]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/NPV.uir"
+File Type = "User Interface Resource"
+Disk Date = 3626841138
+In Projects = "1,"
+Window Top = 122
+Window Left = 58
+Window Height = 494
+Window Width = 809
+
+[File 0014]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/ProjectPanel.uir"
+File Type = "User Interface Resource"
+Disk Date = 3618884952
+In Projects = "1,"
+Window Top = 152
+Window Left = 74
+Window Height = 494
+Window Width = 809
+
+[File 0015]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/Result Menu.uir"
+File Type = "User Interface Resource"
+Disk Date = 3625722791
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Window Height = 452
+Window Width = 809
+
+[File 0016]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/ResultDispPanel.uir"
+File Type = "User Interface Resource"
+Disk Date = 3626757460
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Window Height = 452
+Window Width = 809
+
+[File 0017]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/Sample Configuration.uir"
+File Type = "User Interface Resource"
+Disk Date = 3626904068
+In Projects = "1,"
+Window Top = 182
+Window Left = 90
+Window Height = 494
+Window Width = 809
+
+[File 0018]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/Settings.uir"
+File Type = "User Interface Resource"
+Disk Date = 3626242315
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Window Height = 515
+Window Width = 809
+
+[File 0019]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/SV.uir"
+File Type = "User Interface Resource"
+Disk Date = 3626841229
+In Projects = "1,"
+Window Top = 212
+Window Left = 106
+Window Height = 494
+Window Width = 809
+
+[File 0020]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/SWV.uir"
+File Type = "User Interface Resource"
+Disk Date = 3626841319
+In Projects = "1,"
+Window Top = 242
+Window Left = 122
+Window Height = 494
+Window Width = 809
+
+[File 0021]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/Table.uir"
+File Type = "User Interface Resource"
+Disk Date = 3624522285
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Window Height = 494
+Window Width = 809
+
+[File 0022]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/TAFEL.uir"
+File Type = "User Interface Resource"
+Disk Date = 3626841427
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Window Height = 494
+Window Width = 809
+
+[File 0023]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/Terminal.uir"
+File Type = "User Interface Resource"
+Disk Date = 3623901171
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Window Height = 494
+Window Width = 809
+
+[File 0024]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/AbnormalDataCache.c"
+File Type = "CSource"
+Disk Date = 3624075825
+In Projects = "1,"
+Window Top = 30
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,40,400,600,1,0,"
+
+[File 0025]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/asynctmr.c"
+File Type = "CSource"
+Disk Date = 3618884952
+In Projects = "1,"
+Window Top = 182
+Window Left = 90
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,557,809,1,0,"
+
+[File 0026]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/Curve.c"
+File Type = "CSource"
+Disk Date = 3622440293
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0027]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/cvixml.c"
+File Type = "CSource"
+Disk Date = 3573565200
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0028]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/CvPanel.c"
+File Type = "CSource"
+Disk Date = 3626842310
+In Projects = "1,"
+Source Window State = "1,37,37,37,5,29,29,0,0,0,0,0,0,0,0,0,13,0,38,47,400,600,0,0,"
+
+[File 0029]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/DnpvPanel.c"
+File Type = "CSource"
+Disk Date = 3625017844
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0030]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/DpvPanel.c"
+File Type = "CSource"
+Disk Date = 3625017857
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0031]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/excel2000.c"
+File Type = "CSource"
+Disk Date = 3573565200
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0032]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/excelreport.c"
+File Type = "CSource"
+Disk Date = 3573565200
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0033]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/ExpListPanel.c"
+File Type = "CSource"
+Disk Date = 3626846033
+In Projects = "1,"
+Window Top = 122
+Window Left = 58
+Source Window State = "1,76,76,76,28,36,36,0,3,0,0,0,0,0,0,0,51,0,76,28,410,809,1,0,"
+
+[File 0034]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/File.c"
+File Type = "CSource"
+Disk Date = 3622506547
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0035]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/Graph.c"
+File Type = "CSource"
+Disk Date = 3626063821
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Source Window State = "1,80,80,80,21,29,29,0,0,0,0,0,0,0,0,0,61,0,80,30,410,809,1,0,"
+
+[File 0036]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/ImpPanel.c"
+File Type = "CSource"
+Disk Date = 3626738464
+In Projects = "1,"
+Window Top = 212
+Window Left = 106
+Source Window State = "1,68,68,68,4,28,28,0,0,0,0,0,0,0,0,0,18,0,68,19,452,809,1,0,"
+
+[File 0037]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/inifile.c"
+File Type = "CSource"
+Disk Date = 3622068898
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0038]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/ItPanel.c"
+File Type = "CSource"
+Disk Date = 3626228669
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0039]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/LoadPanel.c"
+File Type = "CSource"
+Disk Date = 3625722351
+In Projects = "1,"
+Window Top = 122
+Window Left = 58
+Source Window State = "1,70,70,70,9,28,28,0,3,0,0,0,0,0,0,0,60,0,70,9,515,809,1,0,"
+
+[File 0040]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/LsvPanel.c"
+File Type = "CSource"
+Disk Date = 3626842252
+In Projects = "1,"
+Source Window State = "1,38,38,38,26,41,26,0,0,0,0,0,0,0,0,0,12,0,38,42,400,600,0,0,"
+
+[File 0041]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/msxmldom.c"
+File Type = "CSource"
+Disk Date = 3573565200
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0042]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/NpvPanel.c"
+File Type = "CSource"
+Disk Date = 3625017897
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0043]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/Plot.c"
+File Type = "CSource"
+Disk Date = 3626497727
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,52,54,52,20,68,20,0,3,0,0,0,0,0,0,0,35,0,54,68,452,809,1,0,"
+
+[File 0044]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/progressbar.c"
+File Type = "CSource"
+Disk Date = 3625636599
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0045]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/ProjectPanel.c"
+File Type = "CSource"
+Disk Date = 3625714000
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0046]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/Protocol.c"
+File Type = "CSource"
+Disk Date = 3626745182
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,597,597,597,70,78,78,0,0,0,0,0,0,0,0,0,614,0,633,0,305,809,1,0,"
+
+[File 0047]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/ResultMenuPanel.c"
+File Type = "CSource"
+Disk Date = 3626670602
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Source Window State = "1,147,147,147,0,4,4,0,0,0,0,0,0,0,0,0,141,0,147,4,305,809,1,0,"
+
+[File 0048]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/SampleCfgPanel.c"
+File Type = "CSource"
+Disk Date = 3625197765
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0049]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/SerialCommand.c"
+File Type = "CSource"
+Disk Date = 3618884952
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0050]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/SettingsPanel.c"
+File Type = "CSource"
+Disk Date = 3626826710
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,185,185,185,45,57,57,0,0,0,0,0,0,0,0,0,160,0,185,57,515,809,1,0,"
+
+[File 0051]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/SvPanel.c"
+File Type = "CSource"
+Disk Date = 3625017910
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0052]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/SwvPanel.c"
+File Type = "CSource"
+Disk Date = 3625017920
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0053]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/system_ini.c"
+File Type = "CSource"
+Disk Date = 3618884952
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0054]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/TablePanel.c"
+File Type = "CSource"
+Disk Date = 3625020880
+In Projects = "1,"
+Window Top = 242
+Window Left = 122
+Source Window State = "1,50,50,50,28,36,36,0,3,0,0,0,0,0,0,0,31,0,50,28,557,809,1,0,"
+
+[File 0055]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/TafelPanel.c"
+File Type = "CSource"
+Disk Date = 3625023381
+In Projects = "1,"
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,23,43,400,600,0,0,"
+
+[File 0056]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/Timer.c"
+File Type = "CSource"
+Disk Date = 3625635617
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0057]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/AbnormalDataCache.h"
+File Type = "Include"
+Disk Date = 3623635641
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0058]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/asynctmr.h"
+File Type = "Include"
+Disk Date = 3618884952
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0059]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/C-V.h"
+File Type = "Include"
+Disk Date = 3626833253
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0060]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/Curve.h"
+File Type = "Include"
+Disk Date = 3626648932
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0061]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/cvixml.h"
+File Type = "Include"
+Disk Date = 3573565200
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0062]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/CvPanel.h"
+File Type = "Include"
+Disk Date = 3623219918
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0063]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/DNPV.h"
+File Type = "Include"
+Disk Date = 3625116770
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0064]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/DnpvPanel.h"
+File Type = "Include"
+Disk Date = 3623708717
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0065]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/DPV.h"
+File Type = "Include"
+Disk Date = 3625115898
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0066]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/DpvPanel.h"
+File Type = "Include"
+Disk Date = 3623708744
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0067]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/Environment.h"
+File Type = "Include"
+Disk Date = 3626845093
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0068]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/excel2000.h"
+File Type = "Include"
+Disk Date = 3573565200
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0069]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/excelreport.h"
+File Type = "Include"
+Disk Date = 3573565200
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0070]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/Experiment List.h"
+File Type = "Include"
+Disk Date = 3626846060
+In Projects = "1,"
+Window Top = 272
+Window Left = 138
+Source Window State = "1,16,16,16,9,27,27,0,3,0,0,0,0,0,0,0,0,0,16,9,557,809,1,0,"
+
+[File 0071]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/ExpListPanel.h"
+File Type = "Include"
+Disk Date = 3626738309
+In Projects = "1,"
+Window Top = 242
+Window Left = 122
+Source Window State = "1,67,67,67,4,22,22,0,0,0,0,0,0,0,0,0,46,0,67,4,452,809,1,0,"
+
+[File 0072]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/File.h"
+File Type = "Include"
+Disk Date = 3618884952
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0073]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/Graph.h"
+File Type = "Include"
+Disk Date = 3623450786
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0074]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/GraphDisp.h"
+File Type = "Include"
+Disk Date = 3625198356
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0075]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/I-T.h"
+File Type = "Include"
+Disk Date = 3626068764
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0076]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/IMP.h"
+File Type = "Include"
+Disk Date = 3626844149
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,36,36,36,9,33,33,0,3,0,0,0,0,0,0,0,24,0,36,9,452,809,1,0,"
+
+[File 0077]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/ImpPanel.h"
+File Type = "Include"
+Disk Date = 3626740896
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,27,31,31,0,3,3,0,0,0,0,0,0,0,0,0,16,0,27,0,452,809,1,0,"
+
+[File 0078]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/inifile.h"
+File Type = "Include"
+Disk Date = 3573565200
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0079]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/ItPanel.h"
+File Type = "Include"
+Disk Date = 3620163548
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0080]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/LoadPanel.h"
+File Type = "Include"
+Disk Date = 3625092414
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0081]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/LSV.h"
+File Type = "Include"
+Disk Date = 3623993755
+In Projects = "1,"
+Window Top = 30
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,42,400,600,1,0,"
+
+[File 0082]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/LsvPanel.h"
+File Type = "Include"
+Disk Date = 3623219918
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,37,515,809,1,0,"
+
+[File 0083]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/main.h"
+File Type = "Include"
+Disk Date = 3626818142
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Window Z-Order = 4
+Source Window State = "1,36,36,36,21,35,35,0,3,80,0,0,0,0,0,13,16,0,36,21,305,809,1,0,"
+
+[File 0084]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/MainPanel.h"
+File Type = "Include"
+Disk Date = 3625714925
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0085]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/MainPanelCb.h"
+File Type = "Include"
+Disk Date = 3625630751
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Window Z-Order = 3
+Source Window State = "1,40,40,40,14,28,28,0,0,80,0,0,0,0,0,25,13,0,36,50,557,809,1,0,"
+
+[File 0086]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/msxmldom.h"
+File Type = "Include"
+Disk Date = 3573565200
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0087]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/NPV.h"
+File Type = "Include"
+Disk Date = 3625116078
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0088]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/NpvPanel.h"
+File Type = "Include"
+Disk Date = 3623708780
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0089]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/Plot.h"
+File Type = "Include"
+Disk Date = 3626497727
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0090]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/progressbar.h"
+File Type = "Include"
+Disk Date = 3573565200
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0091]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/ProjectPanel.h"
+File Type = "Include"
+Disk Date = 3618884952
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0092]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/Protocol.h"
+File Type = "Include"
+Disk Date = 3626740685
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,71,71,71,18,26,26,0,3,0,0,0,0,0,0,0,65,0,71,18,305,809,1,0,"
+
+[File 0093]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/Result Menu.h"
+File Type = "Include"
+Disk Date = 3625722791
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0094]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/ResultDispPanel.h"
+File Type = "Include"
+Disk Date = 3626752455
+In Projects = "1,"
+Window Top = 122
+Window Left = 58
+Source Window State = "1,27,27,27,9,27,27,0,0,0,0,0,0,0,0,0,0,0,28,20,452,809,1,0,"
+
+[File 0095]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/ResultMenuPanel.h"
+File Type = "Include"
+Disk Date = 3621997575
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0096]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/Sample Configuration.h"
+File Type = "Include"
+Disk Date = 3626904068
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0097]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/SampleCfgPanel.h"
+File Type = "Include"
+Disk Date = 3620163548
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0098]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/SerialCommand.h"
+File Type = "Include"
+Disk Date = 3618884952
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0099]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/Settings.h"
+File Type = "Include"
+Disk Date = 3626241371
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Source Window State = "1,30,30,30,9,21,21,0,3,0,0,0,0,0,0,0,11,0,30,9,515,809,1,0,"
+
+[File 0100]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/SettingsPanel.h"
+File Type = "Include"
+Disk Date = 3622005422
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0101]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/SV.h"
+File Type = "Include"
+Disk Date = 3625115452
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0102]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/SvPanel.h"
+File Type = "Include"
+Disk Date = 3623708794
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0103]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/SWV.h"
+File Type = "Include"
+Disk Date = 3625115347
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0104]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/SwvPanel.h"
+File Type = "Include"
+Disk Date = 3623709617
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0105]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/system_ini.h"
+File Type = "Include"
+Disk Date = 3618884952
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0106]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/Table.h"
+File Type = "Include"
+Disk Date = 3623466904
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0107]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/TablePanel.h"
+File Type = "Include"
+Disk Date = 3624498252
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0108]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/TAFEL.h"
+File Type = "Include"
+Disk Date = 3625541430
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0109]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/panel/TafelPanel.h"
+File Type = "Include"
+Disk Date = 3623219918
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0110]
+Path = "/e/Projects/Project_SA5101_V1.8/UI Files/panel/Terminal.h"
+File Type = "Include"
+Disk Date = 3623901171
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0111]
+Path = "/e/Projects/Project_SA5101_V1.8/Src/Timer.h"
+File Type = "Include"
+Disk Date = 3623038972
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0112]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/0b5f76e6304de51436b2a3c882ad751.bmp"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0113]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/5101.ico"
+File Type = "Unknown"
+Disk Date = 3626239148
+In Projects = "1,"
+
+[File 0114]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/analyze.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0115]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Analyze_pressed.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0116]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Arrow.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0117]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/bg.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0118]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/bg_press.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0119]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/bg_pressed.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0120]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/BTN.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0121]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Configure.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0122]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Configure_pressed.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0123]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/D-ouGraph.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0124]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/DoubleGraph.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0125]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Drain.png"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0126]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Drain_pressed.png"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0127]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/FET.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0128]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/FET_ico.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0129]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/gate.png"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0130]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/gate_pressed.png"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0131]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/GND.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0132]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Graph.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0133]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Graph_pressed.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0134]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/no.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0135]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Pic.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0136]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/print.ico"
+File Type = "Unknown"
+Disk Date = 3623899869
+In Projects = "1,"
+
+[File 0137]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/print_pressed.ico"
+File Type = "Unknown"
+Disk Date = 3623899838
+In Projects = "1,"
+
+[File 0138]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Projects.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0139]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/R.bmp"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0140]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Run.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0141]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/RunAgain.ico"
+File Type = "Unknown"
+Disk Date = 3622778708
+In Projects = "1,"
+
+[File 0142]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/RunM.ico"
+File Type = "Unknown"
+Disk Date = 3623809716
+In Projects = "1,"
+
+[File 0143]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Run¸±±¾.ico"
+File Type = "Unknown"
+Disk Date = 3623809716
+In Projects = "1,"
+
+[File 0144]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/SA5101.png"
+File Type = "Unknown"
+Disk Date = 3622006306
+In Projects = "1,"
+
+[File 0145]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Save.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0146]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Save_pressed.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0147]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/saveData.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0148]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/saveData_pressed.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0149]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Select.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0150]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Select_pressed.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0151]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Settings.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0152]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Stop.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0153]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Table.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0154]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Table_pressed.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0155]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Tools.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[File 0156]
+Path = "/e/Projects/Project_SA5101_V1.8/Resource/Wbg.ico"
+File Type = "Unknown"
+Disk Date = 3620163548
+In Projects = "1,"
+
+[Tab Order]
+Tab 0001 = "/e/Projects/Project_SA5101_V1.8/Src/main.c"
+Tab 0002 = "/e/Projects/Project_SA5101_V1.8/Src/main.h"
+Tab 0003 = "/e/Projects/Project_SA5101_V1.8/Src/panel/MainPanelCb.h"
+Tab 0004 = "/e/Projects/Project_SA5101_V1.8/Src/panel/MainPanelCb.c"
+
+[Default Build Config 0001 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0001]
+Number of Dependencies = 0
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0001]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+
+[Distributions]
+Active Index = 1
+AbsCDSPath 0001 = "/e/Projects/Project_SA5101_V1.8/SA5101.cds"
+RelCDSPath 0001 = "SA5101.cds"
+
